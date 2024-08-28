@@ -1,0 +1,2 @@
+# openwebRX
+Configuratie voor openwebRX
