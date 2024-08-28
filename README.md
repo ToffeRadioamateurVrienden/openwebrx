@@ -13,5 +13,14 @@ log in met de gebruikersnaam en paswoord dat is opgegegeven in 'Raspberry Pi Ima
 eerst zorgen we dat het OS volledig up to date is.
 sudo apt-get update
 sudo apt-get upgrade
+sudo rpi-update (eenmalig de firmware updaten)
+sudo openwebrx admin adduser SDR (kies een paswoord)
+sudo reboot
+#installing digital modes
+sudo install-softmbe.sh
+#installing plugins
+https://github.com/0xAF/openwebrxplus-plugins
 
+ifconfig
+http://localhost:8073/
 
