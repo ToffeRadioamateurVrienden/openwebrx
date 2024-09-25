@@ -6,6 +6,17 @@ Als platform gebruiken we een Raspberry Pi, dit is een kleine singleboardcompute
 Deze is verkrijgbaar in verschillende versies, Vanaf een versie3 (V3) is deze geschikt voor onze web SDR
 Sterk aanbevolen is een Versie 4 met 8Mb, deze is wat krachtiger en geeft hierdoor een vlotte werking.
 
+<img src="assets/images/rpi_board.jpg" width="300">
+
+S.D.R
+
+Hier zijn verschillende keuze's mogelijk, zo heeft elke sdr voordelen of nadelen. (prijs, bereik, enz.)
+persoonlijk heb ik 3 modellen zel in gebruik. 
+- RTL-SDR
+- NooElec
+- SdrPlay
+
+<img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300"><img src="assets/images/nooelec.png" width="300">
 
 ### Configuratie voor openwebRX door ON3PDY.
 
