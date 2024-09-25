@@ -67,9 +67,13 @@ hier heb je volgende gegevens voor nodig.
 - IP adres van de Raspberry Pi
 - gebruikersnaam
 - Wachtwoord
+gebruikersnaam en paswoord is wat je hebt opgegegeven in de 'Raspberry Pi Imager'
+
+IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
+
+Via het programma **Angry IP Scanner** kunnen we dit vinden via de hostname ook dit opgegegeven in de 'Raspberry Pi Imager'
 
 
-log in met de gebruikersnaam en paswoord dat is opgegegeven in 'Raspberry Pi Imager'
 eerst zorgen we dat het OS volledig up to date is.
 sudo apt-get update
 sudo apt-get upgrade
