@@ -1,12 +1,12 @@
 # OpenwebRX
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
-## Benodigheden
+## Benodigdheden
 <img src="assets/images/rpi_board.jpg" width="300">      <img src="assets/images/pi5.png" width="300">
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Dit is een kleine singleboardcomputer met een ARM-processor. (afbeelding hier boven)
-Deze zijn verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 5 - 4GB**. +- 66,95€ of de **8Gb versie** kan ook maar deze is wel +-20€ duurder.
+Deze zijn verkrijgbaar in verschillende versies Alle versies hoger dan een V3 kunnen dienen voor dit project..
 
 [**Behuizing**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de speciale connector op de Raspberry Pi 5. +-10,95€
