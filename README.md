@@ -2,10 +2,13 @@
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
-**Raspberry Pi**
+[**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Als platform gebruiken we een Raspberry Pi, dit is een kleine singleboardcomputer met een ARM-processor.
-Deze is verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 4 Model B - 4GB**. +- 61,95€ of de 8GB +- 82,95€
+Deze is verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 5 - 4GB**. +- 66,95€
 
+[**Behuizing**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
+
+**SD kaart**
 
 <img src="assets/images/rpi_board.jpg" width="300">
 
