@@ -18,6 +18,7 @@ behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de 
 MicroSD kaart 32Gb (minimaal 8Gb is voldoende +- 11,25€
 
 **S.D.R's**
+
 [RTL-SDR V3](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/)
 RTL-SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zijn ook bruikbaar waren als SDR. +- 40€
 
