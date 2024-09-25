@@ -4,7 +4,8 @@
 
 Als platform gebruiken we een Raspberry Pi, dit is een kleine singleboardcomputer met een ARM-processor.
 Deze is verkrijgbaar in verschillende versies, Vanaf een versie3 (V3) is deze geschikt voor onze web SDR
-Sterk aanbevolen is een Versie 4, deze is wat krachtiger en geeft hierdoor een vlotte werking.
+Sterk aanbevolen is een Versie 4 met 8Mb, deze is wat krachtiger en geeft hierdoor een vlotte werking.
+
 
 ### Configuratie voor openwebRX door ON3PDY.
 
