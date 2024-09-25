@@ -1,4 +1,5 @@
 # OpenwebRX
+### Configuratie voor een openwebRx door ON3PDY.
 ---
 ## Benodigheden
 
@@ -19,7 +20,7 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 <img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300"><img src="assets/images/nooelec.png" width="300">
 
-### Configuratie voor openwebRX door ON3PDY.
+## Stappen
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
