@@ -1,13 +1,20 @@
 # OpenwebRX
-###Configuratie voor openwebRX door ON3PDY.
 ---
+## Benodigheden
+
+Als platform gebruiken we een Raspberry Pi, dit is een kleine singleboardcomputer met een ARM-processor.
+Deze is verkrijgbaar in verschillende versies, Vanaf een versie3 (V3) is deze geschikt voor onze web SDR
+Sterk aanbevolen is een Versie 4, deze is wat krachtiger en geeft hierdoor een vlotte werking.
+
+### Configuratie voor openwebRX door ON3PDY.
+
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
 Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
 <img src="assets/images/rpim.png" width="500">
 
-##Instellen van systeem gebruiker & paswoord !
+## Instellen van systeem gebruiker & paswoord !
 
 <img src="assets/images/settings_rpim.png" width="500">
 
