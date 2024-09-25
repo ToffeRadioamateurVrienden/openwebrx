@@ -2,7 +2,7 @@
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
-<img src="assets/images/rpi_board.jpg" width="300">   <img src="assets/images/pi5.jpg" width="300">
+<img src="assets/images/rpi_board.jpg" width="300">   <img src="assets/images/pi5.png" width="300">
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Dit is een kleine singleboardcomputer met een ARM-processor.
