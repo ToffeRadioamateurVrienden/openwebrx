@@ -6,7 +6,9 @@
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Dit is een kleine singleboardcomputer met een ARM-processor. (afbeelding hier boven)
-Deze zijn verkrijgbaar in verschillende versies Alle versies hoger dan een V3 kunnen dienen voor dit project..
+Deze zijn verkrijgbaar in verschillende versies.
+
+Alle versies hoger dan een V3 kunnen dienen voor dit project.
 
 [**Behuizing**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de speciale connector op de Raspberry Pi 5. +-10,95€
@@ -15,7 +17,7 @@ behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de 
 27 Watt USB-C voeding 5.1V - 5A. +- 12,95€
 
 [**SD kaart**](https://www.kiwi-electronics.com/nl/transcend-32gb-microsd-premium-class-10-uhs-i-plus-adapter-303?search=sd%20kaart)
-MicroSD kaart 32Gb (minimaal 8Gb is voldoende +- 11,25€
+MicroSD kaart 32Gb (minimaal 8Gb is voldoende +- 11,25€)
 
 **S.D.R's**
 
@@ -45,7 +47,7 @@ Schrijf het bestand naar de **SD kaart** of **USB stick** met behulp van **Raspb
 
 <img src="assets/images/rpim.png" width="500">
 
-## Instellen van systeem gebruiker & paswoord!
+## Instellen van systeem gebruiker & paswoord! ##
 
 <img src="assets/images/settings_rpim.png" width="500">
 
@@ -81,7 +83,7 @@ De gebruikersnaam en paswoord zijn wat je hebt opgegegeven in de 'Raspberry Pi I
 
 IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
 
-Via de opdrachtpromt kunnen we dit vinden: ping de hostname dit heb je ook opgegegeven in de 'Raspberry Pi Imager'
+Via de opdrachtpromt kunnen we dit vinden: ping de hostname die je hebt opgegegeven in 'Raspberry Pi Imager'
 ![image](assets/images/cmd.png)
 
 Aanbevolen is de RPI een vast IP adres geven zodat je niet steeds deze moet gaan zoeken.
@@ -97,15 +99,19 @@ static domain_name_servers=192.168.1.1
 
 Eerst zorgen we dat het OS volledig up to date is.
 `sudo apt-get update`
+
 `sudo apt-get upgrade -y`
 
 nu gaan we herstarten om dit alles te activeren.
+
 `sudo reboot`
 
 `sudo rpi-update` (eenmalig de firmware updaten als je werkt met een oudere RPI)
 
 OpenWebRx web gebruiker en wachtwoord instellen
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
+
+
 
 #installing digital modes
 sudo install-softmbe.sh
