@@ -11,7 +11,8 @@ Sterk aanbevolen is een Versie 4 met 8Mb, deze is wat krachtiger en geeft hierdo
 S.D.R
 
 Hier zijn verschillende keuze's mogelijk, zo heeft elke sdr voordelen of nadelen. (prijs, bereik, enz.)
-persoonlijk heb ik 3 modellen zel in gebruik. 
+
+Persoonlijk heb ik deze 3 modellen in mijn shack. 
 - RTL-SDR
 - NooElec
 - SdrPlay
