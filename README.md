@@ -7,6 +7,7 @@ Als platform gebruiken we een Raspberry Pi, dit is een kleine singleboardcompute
 Deze is verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 5 - 4GB**. +- 66,95€
 
 [**Behuizing**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
+zwarte behuizing voor de Raspberry Pi 5 Hij bevat een ventilator met variabele snelheid, die wordt gevoed en bediend via de speciale connector op de Raspberry Pi 5
 
 **SD kaart**
 
