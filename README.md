@@ -2,20 +2,23 @@
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
+<img src="assets/images/rpi_board.jpg" width="300">   <img src="assets/images/rpi_board.jpg" width="300">
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Dit is een kleine singleboardcomputer met een ARM-processor.
 Deze zijn verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 5 - 4GB**. +- 66,95€ **8Gb** kan ook maar deze is +-20€ duurder.
 
 [**Behuizing**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
-behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de speciale connector op de Raspberry Pi 5.
+behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de speciale connector op de Raspberry Pi 5. +-10,95€
 
 [**Voeding**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-27w-usb-c-power-supply-zwart-eu-11582?_gl=1*p4xdg9*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
-27 Watt USB-C voeding 5.1V - 5A. 
+27 Watt USB-C voeding 5.1V - 5A. +- 12,95€
 
-**SD kaart**
+[**SD kaart**](https://www.kiwi-electronics.com/nl/transcend-32gb-microsd-premium-class-10-uhs-i-plus-adapter-303?search=sd%20kaart)
+MicroSD kaart 32Gb (minimaal 8Gb is voldoende +- 11,25€
 
-<img src="assets/images/rpi_board.jpg" width="300">
+
+
 
 **S.D.R's**
 
