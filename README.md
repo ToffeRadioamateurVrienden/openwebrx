@@ -21,11 +21,16 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 <img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300"><img src="assets/images/nooelec.png" width="300">
 
+**Programma's**
+- [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+- [PuTTY] (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+
 ## Installatie 
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
-Schrijf het bestand naar een **SD kaart** of **USB stick** met behulp van [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+Schrijf het bestand naar een **SD kaart** of **USB stick** met behulp van Raspberry Pi Imager
 
 <img src="assets/images/rpim.png" width="500">
 
@@ -44,14 +49,17 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 - Regio instellingen *Tijdzone:* Europa/Brussels en *Toetsenbord indeling:* be
 
 kies **Opslaan** om deze gegevens te bewaren en toe te passen.
+
 Om verbinding van op afstand te kunnen maken moet SSH worden geactiveerd.
 
 Maak een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ssh (zonder extentie!)
 
 ![image](assets/images/ssh.png)
 
-Sluit eventueel een monitor, toetsenbord en muis aan (kan ook zonder)
 Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart.
+
+## Hoe benaderen en inloggen op de Raspberry Pi? ##
+Via een computer in het zelfde netwerk als de Raspeberry Pi kan je inloggen via een programma. 
 
 log in met de gebruikersnaam en paswoord dat is opgegegeven in 'Raspberry Pi Imager'
 eerst zorgen we dat het OS volledig up to date is.
