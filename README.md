@@ -71,6 +71,7 @@ hier heb je volgende gegevens voor nodig.
 De gebruikersnaam en paswoord zijn wat je hebt opgegegeven in de 'Raspberry Pi Imager'
 
 IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
+Tip: als de hostnaam niet zichtbaar is. verwijder de raspberry Pi uit het netwerk scan, breng terug in netwerk en scan opnieuw.
 
 Via het programma **Angry IP Scanner** kunnen we dit vinden via de hostname ook dit opgegegeven in de 'Raspberry Pi Imager'
 
