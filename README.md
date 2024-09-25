@@ -2,7 +2,7 @@
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
-<img src="assets/images/rpi_board.jpg" width="300">   <img src="assets/images/rpi_board.jpg" width="300">
+<img src="assets/images/rpi_board.jpg" width="300">   <img src="assets/images/pi5.jpg" width="300">
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Dit is een kleine singleboardcomputer met een ARM-processor.
@@ -37,15 +37,15 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 
 
-## Installatie 
+### Installatie ###
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
-Schrijf het bestand naar een **SD kaart** of **USB stick** met behulp van **Raspberry Pi Imager**
+Schrijf het bestand naar de **SD kaart** of **USB stick** met behulp van **Raspberry Pi Imager**
 
 <img src="assets/images/rpim.png" width="500">
 
-## Instellen van systeem gebruiker & paswoord !
+## Instellen van systeem gebruiker & paswoord!
 
 <img src="assets/images/settings_rpim.png" width="500">
 
@@ -80,11 +80,10 @@ hier heb je volgende gegevens voor nodig.
 De gebruikersnaam en paswoord zijn wat je hebt opgegegeven in de 'Raspberry Pi Imager'
 
 IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
-Tip: als de hostnaam niet zichtbaar is. verwijder de raspberry Pi uit het netwerk scan, breng terug in netwerk en scan opnieuw.
 
-Via het programma **Angry IP Scanner** kunnen we dit vinden via de hostname ook dit opgegegeven in de 'Raspberry Pi Imager'
+Via de opdrachtpromt kunnen we dit vinden: ping de hostname dit heb je ook opgegegeven in de 'Raspberry Pi Imager'
+![image](assets/images/cmd.png)
 
-`sudo raspi-config` om de hostnaam eventueel te wijzigen
 
 `sudo nano /etc/dhcpcd.conf`
 zoek naar en pas het voorbeeld aan
