@@ -1,6 +1,6 @@
-# openwebRX
-Configuratie voor openwebRX
-Download the latest version https://github.com/luarvique/ppa
+# OpenwebRX
+Configuratie voor openwebRX door ON3PDY.
+Download de laatste versie via volgende link: https://github.com/luarvique/ppa
 Schrijf het gedownloade document naar de SD kaart met behulp van 'Raspberry Pi Imager'
 ![image](https://github.com/user-attachments/assets/a2cbbe6c-5f7d-4a47-960b-625cb9bce29c)
 
