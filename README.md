@@ -67,11 +67,21 @@ hier heb je volgende gegevens voor nodig.
 - IP adres van de Raspberry Pi
 - gebruikersnaam
 - Wachtwoord
-gebruikersnaam en paswoord is wat je hebt opgegegeven in de 'Raspberry Pi Imager'
+
+De gebruikersnaam en paswoord zijn wat je hebt opgegegeven in de 'Raspberry Pi Imager'
 
 IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
 
 Via het programma **Angry IP Scanner** kunnen we dit vinden via de hostname ook dit opgegegeven in de 'Raspberry Pi Imager'
+
+
+`sudo nano /etc/dhcpcd.conf`
+zoek naar en pas het voorbeeld aan
+
+interface eth0
+static ip_address=192.168.1.47/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
 
 
 eerst zorgen we dat het OS volledig up to date is.
