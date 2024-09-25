@@ -8,8 +8,11 @@ Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https
 <img src="assets/images/rpim.png" width="500">
 
 Om verbinding van op afstand te kunnen maken moet SSH worden geactiveerd.
+
 dit doe je door na het schrijven van de SD kaart een nieuw leeg tekstbestand te maken en te hernoemen naar ssh (zonder extentie!)
+
 ![image](https://github.com/user-attachments/assets/9b5cc6b1-54db-4382-b13e-c151c4910631)
+
 steek de SD kaart in de Raspberry PI en wacht tot de tekst op het scherm gestopt is
 log in met de gebruikersnaam en paswoord dat is opgegegeven in 'Raspberry Pi Imager'
 eerst zorgen we dat het OS volledig up to date is.
