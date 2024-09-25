@@ -2,11 +2,11 @@
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
-<img src="assets/images/rpi_board.jpg" width="300">   <img src="assets/images/pi5.png" width="300">
+<img src="assets/images/rpi_board.jpg" width="300">      <img src="assets/images/pi5.png" width="300">
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
-Dit is een kleine singleboardcomputer met een ARM-processor.
-Deze zijn verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 5 - 4GB**. +- 66,95€ **8Gb** kan ook maar deze is +-20€ duurder.
+Dit is een kleine singleboardcomputer met een ARM-processor. (afbeelding hier boven)
+Deze zijn verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 5 - 4GB**. +- 66,95€ of de **8Gb versie** kan ook maar deze is wel +-20€ duurder.
 
 [**Behuizing**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 behuizing voor de Raspberry Pi 5 met ventilator, wordt gevoed en bediend via de speciale connector op de Raspberry Pi 5. +-10,95€
@@ -21,7 +21,7 @@ MicroSD kaart 32Gb (minimaal 8Gb is voldoende +- 11,25€
 [RTL-SDR V3](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/)
 RTL-SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zijn ook bruikbaar waren als SDR. +- 40€
 
-Hier zijn verschillende keuze's mogelijk, zo heeft elke sdr voordelen of nadelen. (prijs, bereik, enz.)
+[RTL-SDR V4](https://www.vandijkenelektronica.nl/product/rtl-sdr-v4-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 47.50€ (geen ervaring mee!)
 
 Persoonlijk heb ik deze 3 modellen in mijn shack. 
 - RTL-SDR
@@ -30,12 +30,11 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 <img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300"><img src="assets/images/nooelec.png" width="300">
 
+**kosten liggen +- rond de 150€ afhankelijk van de gemaakte keuze's**
+
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-- [Angry IP Scanner](https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-setup.exe)
-
-
 
 ### Installatie ###
 
@@ -84,20 +83,26 @@ IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan
 Via de opdrachtpromt kunnen we dit vinden: ping de hostname dit heb je ook opgegegeven in de 'Raspberry Pi Imager'
 ![image](assets/images/cmd.png)
 
+Aanbevolen is de RPI een vast IP adres geven zodat je niet steeds deze moet gaan zoeken.
 
 `sudo nano /etc/dhcpcd.conf`
-zoek naar en pas het voorbeeld aan
+
+zoek naar onderstaande verwijder # en pas het voorbeeld aan
 
 interface eth0
-static ip_address=192.168.1.47/24
+static ip_address=192.168.1.47/24 (maak hier een unieke keuze in je netwerk voor de laatste cijfers voor /24)
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
 
+Eerst zorgen we dat het OS volledig up to date is.
+`sudo apt-get update`
+`sudo apt-get upgrade -y`
 
-eerst zorgen we dat het OS volledig up to date is.
-sudo apt-get update
-sudo apt-get upgrade
-sudo rpi-update (eenmalig de firmware updaten)
+nu gaan we herstarten om dit alles te activeren.
+`sudo reboot`
+
+sudo rpi-update (eenmalig de firmware updaten als je werkt met een oudere RPI)
+
 sudo openwebrx admin adduser SDR (kies een paswoord)
 sudo reboot
 #installing digital modes
