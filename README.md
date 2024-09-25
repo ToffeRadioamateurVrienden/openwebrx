@@ -6,7 +6,7 @@ Download de laatste versie via volgende link: [OpenwebRx luarvique](https://gith
 Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
 <img src="[Assets/icon.png](https://github.com/user-attachments/assets/a2cbbe6c-5f7d-4a47-960b-625cb9bce29c)" width="200">
-<img src="[[http://....jpg]()](https://github.com/user-attachments/assets/a2cbbe6c-5f7d-4a47-960b-625cb9bce29c)]" width="500" height="400" />
+![](./assets/images/rpim.png =500x400)
 
 Om verbinding van op afstand te kunnen maken moet SSH worden geactiveerd.
 dit doe je door na het schrijven van de SD kaart een nieuw leeg tekstbestand te maken en te hernoemen naar ssh (zonder extentie!)
