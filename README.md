@@ -7,6 +7,14 @@ Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https
 
 <img src="assets/images/rpim.png" width="500">
 
+##Instellen van systeem gebruiker & paswoord !
+
+<img src="assets/images/settings_rpim.png" width="500">
+
+Kies hier voor AANPASSEN om onderstaand dialoog te openen.
+
+<img src="assets/images/rpim_settings.png" width="500">
+
 Om verbinding van op afstand te kunnen maken moet SSH worden geactiveerd.
 
 Maak een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ssh (zonder extentie!)
