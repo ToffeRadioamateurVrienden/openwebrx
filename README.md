@@ -74,6 +74,7 @@ IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan
 
 Via het programma **Angry IP Scanner** kunnen we dit vinden via de hostname ook dit opgegegeven in de 'Raspberry Pi Imager'
 
+`sudo raspi-config` om de hostnaam eventueel te wijzigen
 
 `sudo nano /etc/dhcpcd.conf`
 zoek naar en pas het voorbeeld aan
