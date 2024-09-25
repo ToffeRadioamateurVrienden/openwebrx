@@ -2,11 +2,10 @@
 ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
-
+**Raspberry Pi**
 Als platform gebruiken we een Raspberry Pi, dit is een kleine singleboardcomputer met een ARM-processor.
-Deze is verkrijgbaar in verschillende versies, Vanaf een versie3 (V3) is deze geschikt voor onze webSDR
+Deze is verkrijgbaar in verschillende versies aanbevolen is een **Raspberry Pi 4 Model B - 4GB**. +- 61,95€ of de 8GB +- 82,95€
 
-Sterk aanbevolen is een Versie 4 met 8Mb, deze is net wat krachtiger en geeft hierdoor een vlotte werking.
 
 <img src="assets/images/rpi_board.jpg" width="300">
 
