@@ -27,6 +27,7 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 - [Angry IP Scanner](https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-setup.exe)
 
 
+
 ## Installatie 
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
@@ -60,7 +61,13 @@ Maak een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ss
 Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart.
 
 ## Hoe benaderen en inloggen op de Raspberry Pi? ##
-Via een computer in het zelfde netwerk als de Raspeberry Pi kan je inloggen via een programma. 
+Via een computer in het zelfde netwerk als de Raspeberry Pi kan je inloggen via het programma **PuTTY**.
+
+hier heb je volgende gegevens voor nodig.
+- IP adres van de Raspberry Pi
+- gebruikersnaam
+- Wachtwoord
+
 
 log in met de gebruikersnaam en paswoord dat is opgegegeven in 'Raspberry Pi Imager'
 eerst zorgen we dat het OS volledig up to date is.
