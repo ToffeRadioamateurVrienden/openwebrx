@@ -1,5 +1,5 @@
 # OpenwebRX
-### Configuratie voor een openwebRx door ON3PDY.
+### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigheden
 
@@ -25,7 +25,7 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
-Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+Schrijf het bestand naar een **SD kaart** of **USB stick** met behulp van [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
 <img src="assets/images/rpim.png" width="500">
 
@@ -33,10 +33,17 @@ Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https
 
 <img src="assets/images/settings_rpim.png" width="500">
 
-Kies hier voor AANPASSEN om onderstaand dialoog te openen.
+Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 
 <img src="assets/images/rpim_settings.png" width="500">
 
+- *Hostnaam* ==> vrije keuze voorbeeld: OpenwebRX
+- *Gebruikersnaam* ==> vrije keuze voorbeeld: sdr
+- *Wachtwoord* ==> vrije keuze (opgelet deze is alleen voor het OS)
+- *Wiffi instellen* ==> kan je eventueel overslaan maar kan wel handig zijn om straks te configuren.
+- Regio instellingen *Tijdzone:* Europa/Brussels en *Toetsenbord indeling:* be
+
+kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 Om verbinding van op afstand te kunnen maken moet SSH worden geactiveerd.
 
 Maak een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ssh (zonder extentie!)
