@@ -9,11 +9,13 @@ Schrijf het bestand naar een SD kaart met behulp van [Raspberry Pi Imager](https
 
 Om verbinding van op afstand te kunnen maken moet SSH worden geactiveerd.
 
-dit doe je door na het schrijven van de SD kaart een nieuw leeg tekstbestand te maken en te hernoemen naar ssh (zonder extentie!)
+Maak een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ssh (zonder extentie!)
 
-![image](https://github.com/user-attachments/assets/9b5cc6b1-54db-4382-b13e-c151c4910631)
+![image](assets/images/ssh.png)
 
-steek de SD kaart in de Raspberry PI en wacht tot de tekst op het scherm gestopt is
+Sluit eventueel een monitor, toetsenbord en muis aan (kan ook zonder)
+Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart.
+
 log in met de gebruikersnaam en paswoord dat is opgegegeven in 'Raspberry Pi Imager'
 eerst zorgen we dat het OS volledig up to date is.
 sudo apt-get update
