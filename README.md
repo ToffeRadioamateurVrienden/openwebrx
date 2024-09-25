@@ -23,14 +23,15 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-- [PuTTY] (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [Angry IP Scanner](https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-setup.exe)
 
 
 ## Installatie 
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
-Schrijf het bestand naar een **SD kaart** of **USB stick** met behulp van Raspberry Pi Imager
+Schrijf het bestand naar een **SD kaart** of **USB stick** met behulp van **Raspberry Pi Imager**
 
 <img src="assets/images/rpim.png" width="500">
 
