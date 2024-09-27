@@ -50,7 +50,7 @@ Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberr
 
 ## Instellen van systeem gebruiker & paswoord! ##
 
-<img src="assets/images/settings_rpimg.png" width="500">
+<img src="assets/images/settings_rpim.png" width="500">
 
 Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 
