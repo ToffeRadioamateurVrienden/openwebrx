@@ -43,7 +43,7 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 ## Installatie ##
 
-Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
+Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/openwebrx/releases/)
 
 Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberry Pi Imager**
 
