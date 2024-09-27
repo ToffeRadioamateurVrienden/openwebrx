@@ -71,15 +71,15 @@ Maak een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ss
 
 Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart.
 
-## Hoe benaderen en inloggen op de Raspberry Pi? ##
+## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als de Raspeberry Pi kan je inloggen via het programma **PuTTY**.
 
-hier heb je volgende gegevens voor nodig.
+hiervoor heb je volgende gegevens voor nodig.
 - IP adres van de Raspberry Pi
 - gebruikersnaam
 - Wachtwoord
 
-De gebruikersnaam en paswoord zijn wat je hebt opgegegeven in de 'Raspberry Pi Imager'
+De gebruikersnaam en paswoord is wat je hebt opgegegeven in de 'Raspberry Pi Imager'
 
 IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
 
