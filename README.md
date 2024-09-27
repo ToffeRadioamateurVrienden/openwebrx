@@ -86,23 +86,30 @@ IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan
 Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt opgegegeven in 'Raspberry Pi Imager'
 ![image](assets/images/cmd.png)
 
-Aanbevolen is de RPI een vast IP adres geven zodat je niet steeds deze moet gaan zoeken.
+Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
 
-Hiervoor doen we eerst wat opzoekwerk van het netwerk waarmee we mee verbonden zijn.
-Opniew gebruiken we de opdrachtprompt (CMD)  `ipconfig`
+Hiervoor doen we eerst wat opzoekwerk betrefende het netwerk waarmee we verbonden zijn.
+Opniew gebruiken we de opdrachtprompt (CMD)  
+
+`ipconfig`
+
 Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier **Subnet Mask** en **Default Gateway**
 ![image](assets/images/cmd_2.png)
 
-nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen.
+nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. Hiervoor heeft de RPI een ingebouwde editor. **NANO**
 
 `sudo nano /etc/dhcpcd.conf`
 
 zoek naar onderstaande verwijder # en pas het voorbeeld aan
 
+![image](assets/images/ip_2.png)
+
 interface eth0
 static ip_address=192.168.1.47/24 (maak hier een unieke keuze in je netwerk voor de laatste cijfers voor /24)
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
+
+Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
 Eerst zorgen we dat het OS volledig up to date is.
 `sudo apt-get update`
