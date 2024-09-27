@@ -63,7 +63,7 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 - *Wiffi instellen* ==> kan je eventueel overslaan maar kan wel handig zijn om straks te configuren.
 - Regio instellingen *Tijdzone:* **Europa/Brussels** en *Toetsenbord indeling:* **be**
 
-kies **Opslaan** om deze gegevens te bewaren en toe te passen.
+Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
 
@@ -74,9 +74,9 @@ Maak hiervoor een nieuw leeg tekstbestand aan in de root map en deze te hernoeme
 Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart.
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
-Via een computer in het zelfde netwerk als de Raspeberry Pi kan je inloggen via het programma **PuTTY**.
+Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
 
-hiervoor heb je volgende gegevens voor nodig.
+Hiervoor heb je volgende gegevens voor nodig.
 - IP adres van de Raspberry Pi
 - gebruikersnaam
 - Wachtwoord
