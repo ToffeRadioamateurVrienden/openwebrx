@@ -28,10 +28,9 @@ SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zij
 
 Persoonlijk heb ik deze 3 modellen in mijn shack. 
 - RTL-SDR
-- NooElec
 - SdrPlay
 
-<img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300"><img src="assets/images/nooelec.png" width="300">
+<img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300">
 
 *kosten van dit project liggen +- rond de 150€ afhankelijk van de gemaakte keuze's en wat je mischien nog in de shack liggen hebt.*
 
@@ -47,11 +46,11 @@ Download de laatste versie via volgende link: [OpenwebRx luarvique](https://gith
 
 Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberry Pi Imager**
 
-<img src="assets/images/rpim.png" width="500">
+<img src="assets/images/rpi_im1.png" width="500">
 
 ## Instellen van systeem gebruiker & paswoord! ##
 
-<img src="assets/images/settings_rpim.png" width="500">
+<img src="assets/images/rpi_im2.png" width="500">
 
 Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 
