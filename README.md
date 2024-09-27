@@ -67,7 +67,7 @@ Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
 
-Maak hiervoor een nieuw leeg tekstbestand aan in de root map en deze te hernoemen naar ssh (zonder extentie!)
+Maak hiervoor een nieuw leeg tekstbestand aan in de root map met als naam **ssh** (zonder extentie!)
 
 ![image](assets/images/ssh.png)
 
