@@ -75,6 +75,7 @@ De image wordt nu op de SDkaart geinstalleerd.
 De installatie wordt geverifieerd
 
 <img src="assets/images/rpi_im6.png" width="500">
+Verwijder de SDkaart uit je PC en klik op sluiten.
 
 <img src="assets/images/ssh_1.png" width="500">
 
