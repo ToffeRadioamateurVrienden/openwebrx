@@ -50,11 +50,11 @@ Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberr
 
 ## Instellen van systeem gebruiker & paswoord! ##
 
-<img src="assets/images/settings_rpimg" width="500">
+<img src="assets/images/settings_rpimg.png" width="500">
 
 Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 
-<img src="assets/images/rpi_im2.png.png" width="500">
+<img src="assets/images/rpi_im2.png" width="500">
 
 - *Hostnaam* ==> vrije keuze voorbeeld: OpenwebRX
 - *Gebruikersnaam* ==> vrije keuze voorbeeld: sdr
