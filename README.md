@@ -83,10 +83,17 @@ De gebruikersnaam en paswoord is wat je hebt opgegegeven in de 'Raspberry Pi Ima
 
 IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan de Raspberry Pi.
 
-Via de opdrachtpromt kunnen we dit vinden: ping de hostname die je hebt opgegegeven in 'Raspberry Pi Imager'
+Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt opgegegeven in 'Raspberry Pi Imager'
 ![image](assets/images/cmd.png)
 
 Aanbevolen is de RPI een vast IP adres geven zodat je niet steeds deze moet gaan zoeken.
+
+Hiervoor doen we eerst wat opzoekwerk van het netwerk waarmee we mee verbonden zijn.
+Opniew gebruiken we de opdrachtprompt (CMD)  `ipconfig`
+Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier **Subnet Mask** en **Default Gateway**
+![image](assets/images/cmd_2.png)
+
+nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen.
 
 `sudo nano /etc/dhcpcd.conf`
 
