@@ -65,13 +65,17 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 
 Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
+Kies JA om het schrijven naar SDkaart te starten
+
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
 
 Maak hiervoor een nieuw leeg tekstbestand aan in de root map met als naam **ssh** (zonder extentie!)
 
 ![image](assets/images/ssh.png)
 
-Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart. **(sluit de SDR dongle nog niet aan!)**
+- Steek de SD kaart in de Raspberry PI
+- Sluit de RPI aan het netwerk
+- Sluit de voeding aan en wacht tot deze is opgestart. **(sluit de SDR dongle nog niet aan!)**
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
