@@ -77,19 +77,9 @@ De installatie wordt geverifieerd
 <img src="assets/images/rpi_im6.png" width="500">
 Verwijder de SDkaart uit je PC en klik op sluiten.
 
-<img src="assets/images/ssh_1.png" width="500">
-
-<img src="assets/images/put_1.png" width="500">
-
-<img src="assets/images/put_2.png" width="500">
-
-<img src="assets/images/put_3.png" width="500">
-
-Kies JA om het schrijven naar SDkaart te starten
-
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
 
-Maak hiervoor een nieuw leeg tekstbestand aan in de root map met als naam **ssh** (zonder extentie!)
+Steek de SDkaart terug in je PC en maak een nieuw leeg tekstbestand aan in de root map met als naam **ssh** (zonder extentie!)
 
 ![image](assets/images/ssh.png)
 
@@ -99,6 +89,15 @@ Maak hiervoor een nieuw leeg tekstbestand aan in de root map met als naam **ssh*
 - Sluit de voeding aan en wacht tot deze is opgestart.
 
 Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http://demosdr.local:8073/**
+
+
+<img src="assets/images/ssh_1.png" width="500">
+
+<img src="assets/images/put_1.png" width="500">
+
+<img src="assets/images/put_2.png" width="500">
+
+<img src="assets/images/put_3.png" width="500">
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
