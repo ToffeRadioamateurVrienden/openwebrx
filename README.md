@@ -33,7 +33,7 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 <img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300"><img src="assets/images/nooelec.png" width="300">
 
-*kosten van dit project ligt +- rond de 150€ afhankelijk van de gemaakte keuze's en wat je mischien nog liggen hebt.*
+*kosten van dit project liggen +- rond de 150€ afhankelijk van de gemaakte keuze's en wat je mischien nog in de shack liggen hebt.*
 
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
