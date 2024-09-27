@@ -1,5 +1,4 @@
-# OpenwebRX
-### Installatie & Configuratie OpenwebRx door ON3PDY.
+# OpenwebRX  ### Installatie & Configuratie OpenwebRx door ON3PDY.
 ---
 ## Benodigdheden
 <img src="assets/images/rpi_board.jpg" width="300">      <img src="assets/images/pi5.png" width="300">
@@ -39,6 +38,8 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+---
 
 ### Installatie ###
 
