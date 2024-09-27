@@ -59,7 +59,7 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 - *Gebruikersnaam* ==> vrije keuze voorbeeld: sdr
 - *Wachtwoord* ==> vrije keuze (opgelet deze is alleen voor het OS)
 - *Wiffi instellen* ==> kan je eventueel overslaan maar kan wel handig zijn om straks te configuren.
-- Regio instellingen *Tijdzone:* Europa/Brussels en *Toetsenbord indeling:* be
+- Regio instellingen *Tijdzone:* **Europa/Brussels** en *Toetsenbord indeling:* **be**
 
 kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
