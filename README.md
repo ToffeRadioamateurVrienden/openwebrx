@@ -108,18 +108,27 @@ nu gaan we herstarten om dit alles te activeren.
 
 `sudo rpi-update` (eenmalig de firmware updaten als je werkt met een oudere RPI)
 
-OpenWebRx web gebruiker en wachtwoord instellen
+OpenWebRx web gebruiker en wachtwoord instellen (web interface)
+
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
-#sudo openwebrx admin adduser [username]            Add a new user
-#sudo openwebrx admin removeuser [username]         Remove an existing user
-#sudo openwebrx admin resetpassword [username]      Reset a user's password
-#sudo openwebrx admin disableuser [username]        Disable a user
-#sudo openwebrx admin enableuser [username]         Enable a user
-#sudo openwebrx admin listusers                     List enabled users
-#sudo openwebrx admin hasuser                       Test if a user exists
+`sudo openwebrx admin adduser` [username]            Add a new user
+
+`sudo openwebrx admin removeuser` [username]         Remove an existing user
+
+`sudo openwebrx admin resetpassword` [username]      Reset a user's password
+
+`sudo openwebrx admin disableuser` [username]        Disable a user
+
+`sudo openwebrx admin enableuser` [username]         Enable a user
+
+`sudo openwebrx admin listusers`                     List enabled users
+
+`sudo openwebrx admin hasuser`                       Test if a user exists
+
 
 #installing digital modes
+
 sudo install-softmbe.sh
 
 
