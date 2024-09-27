@@ -66,9 +66,13 @@ Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
 <img src="assets/images/rpi_im3.png" width="500">
 
+Klik op **ja** voor deze waarschuwing
+
 <img src="assets/images/rpi_im4.png" width="500">
+De image wordt nu op de SDkaart geinstalleerd.
 
 <img src="assets/images/rpi_im5.png" width="500">
+De installatie wordt geverifieerd
 
 <img src="assets/images/rpi_im6.png" width="500">
 
