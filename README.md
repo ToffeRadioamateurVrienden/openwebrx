@@ -14,7 +14,7 @@ Alle versies hoger dan een V3 kunnen dienen voor dit project.
 behuizing voor de Raspberry Pi. +-10,95€
 
 [**Voeding**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-27w-usb-c-power-supply-zwart-eu-11582?_gl=1*p4xdg9*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
-Voeding 5.1V - minimum 3A, voor de V4 en V5 een 5A model. +- 12,95€
+Voeding 5.1V - minimum Ampere hangt af van de gebruikte Versie van Raspberry Pi. +- 12,95€
 
 [**SD kaart**](https://www.kiwi-electronics.com/nl/transcend-32gb-microsd-premium-class-10-uhs-i-plus-adapter-303?search=sd%20kaart)
 MicroSD kaart minimaal 8Gb. +- 11,25€
