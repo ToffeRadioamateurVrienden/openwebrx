@@ -71,7 +71,7 @@ Maak hiervoor een nieuw leeg tekstbestand aan in de root map met als naam **ssh*
 
 ![image](assets/images/ssh.png)
 
-Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart.
+Steek de SD kaart in de Raspberry PI en wacht tot deze is opgestart. **(sluit de SDR dongle nog niet aan!)**
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
@@ -99,34 +99,39 @@ Opniew gebruiken we hiervoor de opdrachtprompt (CMD)
 
 `ipconfig`
 
-Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier **Subnet Mask** en **Default Gateway**
+Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier de **Default Gateway**
 ![image](assets/images/cmd_2.png)
 
 nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. Hiervoor heeft de RPI een ingebouwde editor. **NANO**
 
 `sudo nano /etc/dhcpcd.conf`
 
-zoek naar onderstaande verwijder # en pas het voorbeeld aan.
+zoek naar **Example static IP configuration van interface eth0** verwijder de # vooraan en pas het voorbeeld aan.
 
 ![image](assets/images/ip_2.png)
 
-TIP: gebruik als static ip_address dat wat via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!)
+TIP: gebruik als static ip_address dat wat via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
 
-interface eth0
-static ip_address=192.168.1.47/24 (maak hier een unieke keuze in je netwerk voor de laatste cijfers voor /24)
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1
+static routers en static domain_name_servers daar gebruik je de **Default Gateway** die je hebt verkregen via **ipconfig**
+
+- static ip_address=192.168.1.47/24 (opgelet /24 moet achteraan het gewenste IP adres staan!)
+- static routers=192.168.1.1
+- static domain_name_servers=192.168.1.1
 
 Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
+
+Nu sluiten we de SDR dongle aan op een van de USB poorten en gaan we herstarten om dit alles te activeren.
+
+`sudo reboot`
+
+
 
 Eerst zorgen we dat het OS volledig up to date is.
 `sudo apt-get update`
 
 `sudo apt-get upgrade -y`
 
-nu gaan we herstarten om dit alles te activeren.
 
-`sudo reboot`
 
 `sudo rpi-update` (eenmalig de firmware updaten als je werkt met een oudere RPI)
 
