@@ -83,15 +83,17 @@ Steek de SDkaart terug in je PC en maak een nieuw leeg tekstbestand aan in de ro
 
 ![image](assets/images/ssh.png)
 
-- Steek de SD kaart in de Raspberry PI
-- Sluit de RPI aan het netwerk
-- sluit de SDR dongle aan op 1 van de USB poorten
+**De eerste opstart van OpenWebRx**
+
+- Steek de SD kaart in de Raspberry PI.
+- Sluit de RPI aan in het netwerk.
+- sluit de SDR dongle aan op 1 van de USB poorten.
 - Sluit de voeding aan en wacht tot deze is opgestart.
 
 Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http://demosdr.local:8073/**
 
 
-<img src="assets/images/ssh_1.png" width="500">
+
 
 <img src="assets/images/put_1.png" width="500">
 
@@ -119,7 +121,7 @@ Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt op
 
 Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
 
-Hiervoor doen we eerst wat opzoekwerk betrefende het netwerk waarmee we verbonden zijn.
+Hiervoor doen we eerst wat opzoeken betrefende het netwerk waarmee we verbonden zijn.
 
 Opniew gebruiken we hiervoor de opdrachtprompt (CMD)  
 
@@ -156,6 +158,7 @@ Eerst zorgen we dat het OS volledig up to date is.
 `sudo apt-get upgrade -y`
 
 
+<img src="assets/images/ssh_1.png" width="500">
 
 `sudo rpi-update` (eenmalig de firmware updaten als je werkt met een oudere RPI)
 
