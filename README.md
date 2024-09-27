@@ -75,7 +75,10 @@ Maak hiervoor een nieuw leeg tekstbestand aan in de root map met als naam **ssh*
 
 - Steek de SD kaart in de Raspberry PI
 - Sluit de RPI aan het netwerk
-- Sluit de voeding aan en wacht tot deze is opgestart. **(sluit de SDR dongle nog niet aan!)**
+- sluit de SDR dongle aan op 1 van de USB poorten
+- Sluit de voeding aan en wacht tot deze is opgestart.
+
+Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http://demosdr:8073/**
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
