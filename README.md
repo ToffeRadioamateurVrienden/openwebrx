@@ -22,11 +22,10 @@ MicroSD kaart minimaal 8Gb. +- 11,25€
 **S.D.R's**
 
 SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zijn prima bruikbaar als SDR.
-RTL-SDR-dongles zijn zeer goed verkrijgbaar en in verschillende versies te verkrijgen.
 
-[RTL-SDR V3](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 40€ (is wat ik in gebruik heb)
+[**RTL-SDR V3**](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 40€ (is wat ik in gebruik heb)
 
-[RTL-SDR V4](https://www.vandijkenelektronica.nl/product/rtl-sdr-v4-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 47.50€ (geen ervaring mee!)
+[**RTL-SDR V4**](https://www.vandijkenelektronica.nl/product/rtl-sdr-v4-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 47.50€ (geen ervaring mee!)
 
 Persoonlijk heb ik deze 3 modellen in mijn shack. 
 - RTL-SDR
