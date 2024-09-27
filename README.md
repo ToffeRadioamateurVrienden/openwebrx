@@ -45,7 +45,7 @@ Persoonlijk heb ik deze 3 modellen in mijn shack.
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/ppa)
 
-Schrijf het bestand naar de **SD kaart** of **USB stick** met behulp van **Raspberry Pi Imager**
+Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberry Pi Imager**
 
 <img src="assets/images/rpim.png" width="500">
 
