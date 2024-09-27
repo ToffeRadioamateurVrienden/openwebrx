@@ -64,6 +64,22 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 
 Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
+<img src="assets/images/rpi_im3.png" width="500">
+
+<img src="assets/images/rpi_im4.png" width="500">
+
+<img src="assets/images/rpi_im5.png" width="500">
+
+<img src="assets/images/rpi_im6.png" width="500">
+
+<img src="assets/images/ssh_1.png" width="500">
+
+<img src="assets/images/put_1.png" width="500">
+
+<img src="assets/images/put_2.png" width="500">
+
+<img src="assets/images/put_3.png" width="500">
+
 Kies JA om het schrijven naar SDkaart te starten
 
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
