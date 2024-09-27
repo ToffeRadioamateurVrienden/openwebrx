@@ -84,7 +84,7 @@ Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http:/
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
 
 Hiervoor heb je volgende gegevens voor nodig.
-- IP adres van de Raspberry Pi
+- IP adres van de Raspberry Pi of de **hostname.local**
 - gebruikersnaam
 - Wachtwoord
 
@@ -130,8 +130,6 @@ Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 Nu sluiten we de SDR dongle aan op een van de USB poorten en gaan we herstarten om dit alles te activeren.
 
 `sudo reboot`
-
-
 
 Eerst zorgen we dat het OS volledig up to date is.
 `sudo apt-get update`
