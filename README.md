@@ -22,7 +22,7 @@ MicroSD kaart 32Gb (minimaal 8Gb is voldoende +- 11,25€)
 **S.D.R's**
 
 [RTL-SDR V3](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/)
-RTL-SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zijn ook bruikbaar waren als SDR. +- 40€
+RTL-SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zijn ook bruikbaar als SDR. +- 40€
 
 [RTL-SDR V4](https://www.vandijkenelektronica.nl/product/rtl-sdr-v4-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 47.50€ (geen ervaring mee!)
 
@@ -111,7 +111,13 @@ nu gaan we herstarten om dit alles te activeren.
 OpenWebRx web gebruiker en wachtwoord instellen
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
-
+#sudo openwebrx admin adduser [username]            Add a new user
+#sudo openwebrx admin removeuser [username]         Remove an existing user
+#sudo openwebrx admin resetpassword [username]      Reset a user's password
+#sudo openwebrx admin disableuser [username]        Disable a user
+#sudo openwebrx admin enableuser [username]         Enable a user
+#sudo openwebrx admin listusers                     List enabled users
+#sudo openwebrx admin hasuser                       Test if a user exists
 
 #installing digital modes
 sudo install-softmbe.sh
