@@ -114,11 +114,12 @@ Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt op
 
 <img src="assets/images/put_1.png" width="500">
 
-De allereerste keer de PC een verbinding maakt krijg je dit scherm te zien. klik op OK om verder te gaan.
+De allereerste keer de PC een verbinding maakt krijg je dit scherm te zien. klik op JA om verder te gaan.
 
 <img src="assets/images/put_2.png" width="500">
 
-Eerst zorgen we dat het OS volledig up to date is.
+Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit lang duren, geduld ...)
+
 `sudo apt-get update`
 
 `sudo apt-get upgrade -y`
@@ -127,13 +128,15 @@ Eerst zorgen we dat het OS volledig up to date is.
 
 <img src="assets/images/ssh_1.png" width="500">
 
-`sudo rpi-update` (eenmalig de firmware updaten als je werkt met een oudere RPI)
+`sudo rpi-update` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI)
 
+Log opnieuw in op de RPI om een OpenWebRx admin web gebruiker en wachtwoord instellen.
 
-OpenWebRx web gebruiker en wachtwoord instellen (web interface)
 <img src="assets/images/put_3.png" width="500">
 
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
+
+Deze zijn ook intersant om te weten.
 
 `sudo openwebrx admin adduser` [username]            Add a new user
 
@@ -149,17 +152,55 @@ OpenWebRx web gebruiker en wachtwoord instellen (web interface)
 
 `sudo openwebrx admin hasuser`                       Test if a user exists
 
+###installing digital modes###
 
-#installing digital modes
+Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale modulatie decoders installeren. (niet verplicht)
 
 sudo install-softmbe.sh
 
+**installing plugins**
+https://github.com/0xAF/openwebrxplus-plugins
+
+Om een ​​plugin te laden moet je een **init.js** bestand aanmaken in je openwebrx installatie.
+
+Om deze map te vinden met volgend commando.  `find / -name openwebrx.js`
+
+Je moet de init.js maken/bewerken.
+In het volgende voorbeeld laden we receiver plugins.
+Eerst moeten we het init.js bestand maken:
+
+sudo find / -name openwebrx.js
+cd /usr/lib/python3/dist-packages/htdocs/plugins/receiver
+sudo cp init.js.sample init.js
+sudo nano init.js
+
+// Plugin initialization.
+
+// uncomment to enable plugin debugging.
+// Plugins._enable_debug = true;
+
+// First load the utils, needed for some plugins
+Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js').then(async function () {
+
+  // load a local plugins if you have one
+  //Plugins.load('example');
+
+  // Load the notification plugin, used by some plugins. await to ensure it is loaded before the rest.
+  await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/notify/notify.js');
+  await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js');
+
+  // load remote plugins
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/keyboard_shortcuts/keyboard_shortcuts.js');
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/colorful_spectrum/colorful_spectrum.js');
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/connect_notify/connect_notify.js');
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/map/layer_qth_maidenhead/layer_qth_maidenhead.js');
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/sort_profiles/sort_profiles.js');
+
+});
 
 
 
-
-
-
+---
 
 Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
 
@@ -194,23 +235,9 @@ Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
 
 
-**installing plugins**
-https://github.com/0xAF/openwebrxplus-plugins
-To load a plugin you need to create init.js file inside your openwebrx installation under htdocs/plugins/{type} folder. 
-You can find the folder with this command:
-`find / -name openwebrx.js`
-
-You need to create/edit the init.js.
-In the next example we will load receiver plugins.
-First we need to create the init.js file:
-
-OWRX_FOLDER=$(dirname `find / -name openwebrx.js`)
-cd "$OWRX_FOLDER/plugins/receiver"
-cp init.js.sample init.js
-$EDITOR init.js
 
 
-http://localhost:8073/
+
 
 
 
