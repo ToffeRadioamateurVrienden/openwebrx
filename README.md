@@ -30,7 +30,7 @@ Persoonlijk heb ik deze modellen in mijn shack.
 - RTL-SDR
 - SdrPlay
 
-<img src="assets/images/RTL-SDR_.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300">
+<img src="assets/images/rtl-sdr.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300">
 
 *kosten van dit project liggen +- rond de 150€ afhankelijk van de gemaakte keuze's en wat je mischien nog in de shack liggen hebt.*
 
@@ -117,7 +117,7 @@ Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt op
 
 `ping OpenwebRX`
 
-![image](assets/images/cmd.png)
+![image](assets/images/ping.png)
 
 Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
 
