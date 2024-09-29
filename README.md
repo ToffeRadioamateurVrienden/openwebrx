@@ -171,16 +171,12 @@ Tip: wil je zien wat er in deze map staat gebruik **ls -a**
 
 We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  `sudo cp init.js.sample init.js`
 
-Nu gaan we dit bestand editren met het commando `sudo nano init.js`
+Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
 // Plugin initialization.
-// uncomment to enable plugin debugging.
-// Plugins._enable_debug = true;
 // First load the utils, needed for some plugins
 Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js').then(async function () {
   // load a local plugins if you have one
-  //Plugins.load('example');
-  // Load the notification plugin, used by some plugins. await to ensure it is loaded before the rest.
   await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/notify/notify.js');
   await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js');
 
@@ -190,10 +186,17 @@ Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.
   Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/connect_notify/connect_notify.js');
   Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/map/layer_qth_maidenhead/layer_qth_maidenhead.js');
   Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/sort_profiles/sort_profiles.js');
-
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/antenna_switcher/antenna_switcher.js');
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/tune_checkbox/tune_checkbox.js');
+  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js')
+    .then(async function () {
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/frequency_far_jump/frequency_far_jump.js');
+  });
 });
 
 
+
+sudo systemctl restart varnish nginx
 
 ---
 
