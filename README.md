@@ -105,7 +105,7 @@ Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http:/
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
 
 Hiervoor heb je volgende gegevens voor nodig.
-- IP adres van de Raspberry Pi of de **hostname.local**
+- IP adres van de Raspberry Pi of de hostname **(demosdr.local)**
 - gebruikersnaam
 - Wachtwoord
 
