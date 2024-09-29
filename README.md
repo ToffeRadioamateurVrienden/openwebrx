@@ -163,7 +163,7 @@ Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale modulatie deco
 
 Om een ​​plugin(s) te laden moet je een **init.js** bestand aanmaken in je openwebrx installatie.
 
-Om deze map te vinden gebruik je volgend commando.  `sudo find / -name openwebrx.js`
+Om de juiste map te vinden waar bestand moet staan, gebruik je volgend commando.  `sudo find / -name openwebrx.js`
 
 `cd /usr/lib/python3/dist-packages/htdocs/plugins/receiver`    vervang **openwebrx.js** door **plugins/receiver**
 
