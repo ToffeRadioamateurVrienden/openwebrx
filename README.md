@@ -132,11 +132,11 @@ Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit 
 
 Log opnieuw in op de RPI om een OpenWebRx admin web gebruiker en wachtwoord instellen.
 
-<img src="assets/images/put_3.png" width="500">
-
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
-Deze zijn ook intersant om te weten.
+<img src="assets/images/put_3.png" width="500">
+
+Deze zijn ook interesante commando's betreft gebruiker administratie.
 
 `sudo openwebrx admin adduser` [username]            Add a new user
 
@@ -152,14 +152,14 @@ Deze zijn ook intersant om te weten.
 
 `sudo openwebrx admin hasuser`                       Test if a user exists
 
-###installing digital modes###
+### Installing digital modes ###
 
 Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale modulatie decoders installeren. (niet verplicht)
 
-sudo install-softmbe.sh
+`sudo install-softmbe.sh`
 
-**installing plugins**
-https://github.com/0xAF/openwebrxplus-plugins
+### installing plugins ###
+[openwebrxplus-plugins](https://github.com/0xAF/openwebrxplus-plugins)
 
 Om een ​​plugin te laden moet je een **init.js** bestand aanmaken in je openwebrx installatie.
 
@@ -175,16 +175,12 @@ sudo cp init.js.sample init.js
 sudo nano init.js
 
 // Plugin initialization.
-
 // uncomment to enable plugin debugging.
 // Plugins._enable_debug = true;
-
 // First load the utils, needed for some plugins
 Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js').then(async function () {
-
   // load a local plugins if you have one
   //Plugins.load('example');
-
   // Load the notification plugin, used by some plugins. await to ensure it is loaded before the rest.
   await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/notify/notify.js');
   await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js');
