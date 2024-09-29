@@ -161,18 +161,17 @@ Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale modulatie deco
 ### installing plugins ###
 [openwebrxplus-plugins](https://github.com/0xAF/openwebrxplus-plugins)
 
-Om een ​​plugin te laden moet je een **init.js** bestand aanmaken in je openwebrx installatie.
+Om een ​​plugin(s) te laden moet je een **init.js** bestand aanmaken in je openwebrx installatie.
 
-Om deze map te vinden met volgend commando.  `find / -name openwebrx.js`
+Om deze map te vinden gebruik je volgend commando.  `sudo find / -name openwebrx.js`
 
-Je moet de init.js maken/bewerken.
-In het volgende voorbeeld laden we receiver plugins.
-Eerst moeten we het init.js bestand maken:
+`cd /usr/lib/python3/dist-packages/htdocs/plugins/receiver`    vervang **openwebrx.js** door **plugins/receiver**
 
-sudo find / -name openwebrx.js
-cd /usr/lib/python3/dist-packages/htdocs/plugins/receiver
-sudo cp init.js.sample init.js
-sudo nano init.js
+Tip: wil je zien wat er in deze map staat gebruik **ls -a**
+
+We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  `sudo cp init.js.sample init.js`
+
+Nu gaan we dit bestand editren met het commando `sudo nano init.js`
 
 // Plugin initialization.
 // uncomment to enable plugin debugging.
