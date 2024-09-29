@@ -114,6 +114,8 @@ Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt op
 
 <img src="assets/images/put_1.png" width="500">
 
+De allereerste keer de PC een verbinding maakt krijg je dit scherm te zien. klik op OK om verder te gaan.
+
 <img src="assets/images/put_2.png" width="500">
 
 Eerst zorgen we dat het OS volledig up to date is.
