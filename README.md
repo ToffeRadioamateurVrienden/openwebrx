@@ -75,7 +75,7 @@ De image wordt nu op de SDkaart geinstalleerd.
 De installatie wordt geverifieerd
 
 <img src="assets/images/rpi_im6.png" width="500">
-Verwijder de SDkaart uit je PC en klik op **VERDER GAAN**.
+Verwijder de SDkaart uit je PC en klik op **VERDER GAAN**
 
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
 
@@ -95,11 +95,6 @@ Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http:/
 
 
 
-<img src="assets/images/put_1.png" width="500">
-
-<img src="assets/images/put_2.png" width="500">
-
-<img src="assets/images/put_3.png" width="500">
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
@@ -119,36 +114,13 @@ Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt op
 
 ![image](assets/images/ping.png)
 
-Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
 
-Hiervoor doen we eerst wat opzoeken betrefende het netwerk waarmee we verbonden zijn.
 
-Opniew gebruiken we hiervoor de opdrachtprompt (CMD)  
+<img src="assets/images/put_1.png" width="500">
 
-`ipconfig`
+<img src="assets/images/put_2.png" width="500">
 
-Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier de **Default Gateway**
-![image](assets/images/cmd_2.png)
-
-nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. Hiervoor heeft de RPI een ingebouwde editor. **NANO**
-
-`sudo nano /etc/dhcpcd.conf`
-
-zoek naar **Example static IP configuration van interface eth0** verwijder de # vooraan en pas het voorbeeld aan.
-
-![image](assets/images/ip_2.png)
-
-TIP: gebruik als static ip_address dat wat via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
-
-static routers en static domain_name_servers daar gebruik je de **Default Gateway** die je hebt verkregen via **ipconfig**
-
-- static ip_address=192.168.1.47/24 (opgelet /24 moet achteraan het gewenste IP adres staan!)
-- static routers=192.168.1.1
-- static domain_name_servers=192.168.1.1
-
-Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
-
-Nu sluiten we de SDR dongle aan op een van de USB poorten en gaan we herstarten om dit alles te activeren.
+<img src="assets/images/put_3.png" width="500">
 
 `sudo reboot`
 
@@ -184,6 +156,44 @@ OpenWebRx web gebruiker en wachtwoord instellen (web interface)
 #installing digital modes
 
 sudo install-softmbe.sh
+
+
+
+
+
+
+
+
+Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
+
+Hiervoor doen we eerst wat opzoeken betrefende het netwerk waarmee we verbonden zijn.
+
+Opniew gebruiken we hiervoor de opdrachtprompt (CMD)  
+
+`ipconfig`
+
+Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier de **Default Gateway**
+![image](assets/images/cmd_2.png)
+
+nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. Hiervoor heeft de RPI een ingebouwde editor. **NANO**
+
+`sudo nano /etc/dhcpcd.conf`
+
+zoek naar **Example static IP configuration van interface eth0** verwijder de # vooraan en pas het voorbeeld aan.
+
+![image](assets/images/ip_2.png)
+
+TIP: gebruik als static ip_address dat wat via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
+
+static routers en static domain_name_servers daar gebruik je de **Default Gateway** die je hebt verkregen via **ipconfig**
+
+- static ip_address=192.168.1.47/24 (opgelet /24 moet achteraan het gewenste IP adres staan!)
+- static routers=192.168.1.1
+- static domain_name_servers=192.168.1.1
+
+Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
+
+
 
 
 
