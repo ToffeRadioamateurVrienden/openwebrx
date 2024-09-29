@@ -114,27 +114,24 @@ Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt op
 
 ![image](assets/images/ping.png)
 
-
-
 <img src="assets/images/put_1.png" width="500">
 
 <img src="assets/images/put_2.png" width="500">
-
-<img src="assets/images/put_3.png" width="500">
-
-`sudo reboot`
 
 Eerst zorgen we dat het OS volledig up to date is.
 `sudo apt-get update`
 
 `sudo apt-get upgrade -y`
 
+`sudo reboot`
 
 <img src="assets/images/ssh_1.png" width="500">
 
 `sudo rpi-update` (eenmalig de firmware updaten als je werkt met een oudere RPI)
 
+
 OpenWebRx web gebruiker en wachtwoord instellen (web interface)
+<img src="assets/images/put_3.png" width="500">
 
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
