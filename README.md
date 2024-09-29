@@ -154,9 +154,12 @@ Deze zijn ook interesante commando's betreft gebruiker administratie.
 
 ### Installing digital modes ###
 
-Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale modulatie decoders installeren. (niet verplicht)
+Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale decoders installeren. (niet verplicht)
 
 `sudo install-softmbe.sh`
+
+### Configureren van de WebSdr ###
+
 
 ### installing plugins ###
 [openwebrxplus-plugins](https://github.com/0xAF/openwebrxplus-plugins)
