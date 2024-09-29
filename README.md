@@ -75,7 +75,7 @@ De image wordt nu op de SDkaart geinstalleerd.
 De installatie wordt geverifieerd
 
 <img src="assets/images/rpi_im6.png" width="500">
-Verwijder de SDkaart uit je PC en klik op VERDERGAAN.
+Verwijder de SDkaart uit je PC en klik op **VERDER GAAN**.
 
 Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
 
