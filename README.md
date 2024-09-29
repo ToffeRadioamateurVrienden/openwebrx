@@ -10,7 +10,7 @@ Deze zijn verkrijgbaar in verschillende versies.
 Alle versies vanaf een V3 kunnen dienen voor dit project.
 
 [**Behuizing & Koeling**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
-behuizing voor de Raspberry Pi. +-10,95€
+behuizing voor de Raspberry Pi.
 
 [**Voeding**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-27w-usb-c-power-supply-zwart-eu-11582?_gl=1*p4xdg9*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Voeding 5.1V - minimum Ampere hangt af van de gebruikte Versie van Raspberry Pi.
@@ -22,17 +22,15 @@ MicroSD kaart minimaal 8Gb.
 
 SDR-dongles zijn oorspronkelijk ontworpen voor DVB-T HDTV-ontvangst, maar ze zijn prima bruikbaar als SDR.
 
-[**RTL-SDR V3**](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 40€ (is wat ik in gebruik heb)
+[**RTL-SDR V3**](https://www.vandijkenelektronica.nl/product/rtl-sdr-v3-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) (is wat ik in gebruik heb)
 
-[**RTL-SDR V4**](https://www.vandijkenelektronica.nl/product/rtl-sdr-v4-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) +- 47.50€ (geen ervaring mee!)
+[**RTL-SDR V4**](https://www.vandijkenelektronica.nl/product/rtl-sdr-v4-tcxo-dongle-500khz-1700mhz-sma-aansluiting/) (geen ervaring mee!)
 
 Persoonlijk heb ik deze modellen in mijn shack. 
 - RTL-SDR
 - SdrPlay
 
 <img src="assets/images/rtl-sdr.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300">
-
-*kosten van dit project liggen +- rond de 150€ afhankelijk van de gemaakte keuze's en wat je mischien nog in de shack liggen hebt.*
 
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
