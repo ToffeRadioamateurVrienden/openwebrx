@@ -66,6 +66,8 @@ Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
 Klik op **ja** voor deze waarschuwing
 
+mogelijk komt er een bestandsverkener scherm open (negeer waarschuwing en sluit dit)
+
 <img src="assets/images/rpi_im4.png" width="500">
 De image wordt nu op de SDkaart geinstalleerd.
 
