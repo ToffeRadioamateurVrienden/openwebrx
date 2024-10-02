@@ -159,6 +159,18 @@ Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale decoders insta
 
 ### Configureren van de WebSdr ###
 
+Settings ==> General Settings
+Receiver name = ON4TRV
+Receiver location = Lubbeek, Belgium
+Receiver elevation = 200
+Receiver admin = info@tofferradiovrienden.be
+Receiver band plan = ITU Region 1 (Africa, Europe, Middle East, North Asia)
+Receiver coordinates 50,8821422       4,83844307581241
+
+
+<IFRAME style=float:right marginWidth=0 marginHeight=0 src=https://www.dxfuncluster.com/widgets/cluster25.php frameBorder=1 scrolling=yes width=620 height=200></IFRAME>
+
+
 
 ### installing plugins ###
 [openwebrxplus-plugins](https://github.com/0xAF/openwebrxplus-plugins)
@@ -176,6 +188,8 @@ We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  
 Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
 Eerst maken we het bestand compleet leeg CTRL+K verwijderd lijn per lijn
+
+You can press Alt+\ keys for that. Now press Alt+T and it will delete all the text from your current cursor position
 
 schakel over naar RAW mode en kopier wat TUSSEN de 2 @ tekens staat in je klembord.
 
@@ -196,6 +210,8 @@ Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.
 });
 
 @
+
+CTRL+X ==> save modified buffer Yes
 
 sudo systemctl restart varnish nginx
 
