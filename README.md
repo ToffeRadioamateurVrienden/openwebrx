@@ -157,6 +157,8 @@ Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale decoders insta
 
 `sudo install-softmbe.sh`
 
+---
+
 ### Configureren van de WebSdr ###
 
 **Settings ==> General Settings**
@@ -177,6 +179,22 @@ Photo title = Web SDR van de Toffe Radio Amateur Vrienden
 
 Photo description = <IFRAME style=float:right marginWidth=0 marginHeight=0 src=https://www.dxfuncluster.com/widgets/cluster25.php frameBorder=1 scrolling=yes width=620 height=200></IFRAME>
 
+Receiver Avatar + Receiver Panorama : upload bestanden
+
+Allow users to change center frequency = aanvinken
+
+Magic key = leeg maken
+
+Waterfall color theme = Theme By Teejeez....
+
+**Settings ==> SDR device settings**
+
+Disable Airspy HF+ en SDRPlay (tenzij je dergelijke SDR hebt)
+
+
+
+
+---
 
 
 ### installing plugins ###
