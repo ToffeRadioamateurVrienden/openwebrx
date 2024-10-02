@@ -174,23 +174,21 @@ Tip: wil je zien wat er in deze map staat gebruik **ls -a**
 We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  `sudo cp init.js.sample init.js`
 
 Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
-`
+---
 // Plugin initialization.
 // First load the utils, needed for some plugins
 Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js').then(async function () {
-  // load a local plugins if you have one
-  await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/notify/notify.js');
-  // load remote plugins
-  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/keyboard_shortcuts/keyboard_shortcuts.js');
-  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/map/layer_qth_maidenhead/layer_qth_maidenhead.js');
-  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/sort_profiles/sort_profiles.js');
-  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/tune_checkbox/tune_checkbox.js');
   Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js')
     .then(async function () {
     Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/frequency_far_jump/frequency_far_jump.js');
+    await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/notify/notify.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/keyboard_shortcuts/keyboard_shortcuts.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/map/layer_qth_maidenhead/layer_qth_maidenhead.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/sort_profiles/sort_profiles.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/tune_checkbox/tune_checkbox.js');
   });
 });
-`
+---
 sudo systemctl restart varnish nginx
 
 ---
