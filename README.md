@@ -159,16 +159,23 @@ Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale decoders insta
 
 ### Configureren van de WebSdr ###
 
-Settings ==> General Settings
+**Settings ==> General Settings**
+
 Receiver name = ON4TRV
+
 Receiver location = Lubbeek, Belgium
+
 Receiver elevation = 200
+
 Receiver admin = info@tofferradiovrienden.be
+
 Receiver band plan = ITU Region 1 (Africa, Europe, Middle East, North Asia)
+
 Receiver coordinates 50,8821422       4,83844307581241
 
+Photo title = Web SDR van de Toffe Radio Amateur Vrienden
 
-<IFRAME style=float:right marginWidth=0 marginHeight=0 src=https://www.dxfuncluster.com/widgets/cluster25.php frameBorder=1 scrolling=yes width=620 height=200></IFRAME>
+Photo description = <IFRAME style=float:right marginWidth=0 marginHeight=0 src=https://www.dxfuncluster.com/widgets/cluster25.php frameBorder=1 scrolling=yes width=620 height=200></IFRAME>
 
 
 
