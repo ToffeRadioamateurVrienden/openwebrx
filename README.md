@@ -175,7 +175,10 @@ We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  
 
 Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
-schakel over naar RAW mode en kopier wat TUSSEN de @ staat in je klembord.
+Eerst maken we het bestand compleet leeg CTRL+K verwijderd lijn per lijn
+
+schakel over naar RAW mode en kopier wat TUSSEN de 2 @ tekens staat in je klembord.
+
 @
 
 // Plugin initialization.
@@ -193,6 +196,7 @@ Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.
 });
 
 @
+
 sudo systemctl restart varnish nginx
 
 ---
