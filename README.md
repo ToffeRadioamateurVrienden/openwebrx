@@ -175,7 +175,7 @@ Tip: wil je zien wat er in deze map staat gebruik **ls -a**
 We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  `sudo cp init.js.sample init.js`
 
 Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
-
+`
 // Plugin initialization.
 // First load the utils, needed for some plugins
 Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js').then(async function () {
@@ -196,9 +196,7 @@ Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.
     Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/frequency_far_jump/frequency_far_jump.js');
   });
 });
-
-
-
+`
 sudo systemctl restart varnish nginx
 
 ---
