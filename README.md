@@ -91,9 +91,6 @@ Steek de SDkaart terug in je PC en maak een nieuw leeg tekstbestand aan in de ro
 Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http://demosdr.local:8073/**
 
 
-
-
-
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
 
@@ -108,7 +105,7 @@ IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan
 
 Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt opgegegeven in 'Raspberry Pi Imager'
 
-`ping OpenwebRX`
+`ping demoSDR`
 
 ![image](assets/images/ping.png)
 
