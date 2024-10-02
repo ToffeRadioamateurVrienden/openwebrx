@@ -233,6 +233,12 @@ Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
 
 
+https://stackoverflow.com/questions/31264165/can-i-share-my-private-github-repository-by-link
+
+
+
+
+
 
 
 
