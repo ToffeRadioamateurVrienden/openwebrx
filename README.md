@@ -309,7 +309,7 @@ Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
 Log in op je Cloudflare account en hou deze op de achtergrond open!.
 
-`cloudflared tunnel login`
+`sudo cloudflared tunnel login`
 
 2. After running the above command, you will see the following message appear within the terminal.
 
