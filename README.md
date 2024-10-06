@@ -183,7 +183,7 @@ Receiver Avatar + Receiver Panorama : upload bestanden
 
 Allow users to change center frequency = aanvinken
 
-Magic key = leeg maken
+Magic key = kies een wachtwoord indien gewenst ==> http://localhost:8073/#freq=14000000,mod=usb,sql=-150 **,key=on4trv**
 
 Waterfall color theme = Theme By Teejeez....
 
@@ -294,7 +294,19 @@ static routers en static domain_name_servers daar gebruik je de **Default Gatewa
 Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
 ---
-**SDR op het internet via Cloudflaretunnel**
+**SDR op het internet**
+
+Maak een gratis account aan op [ClouDNS](https://www.cloudns.net) tenzij je een domeinnaam bezit dan kan je deze gebruiken.
+
+Maak een gratis account aan op [Cloudflare](https://dash.cloudflare.com)
+
+In Cloudflare krijg je na het toevoegen van je domain (aangemaakt in ClouDNS) 2 naamservers.
+
+Deze moeten we nu registreren in ClouDNS toevoegen als NS voor elke naam die je wenst te gebruiken.
+
+Als alles goed is (kan enige tijd duren!) staat er bovenaan bij Cloudflare onder websites bovenaan in het groen Active.
+
+Terug naar de Raspberry Pi.
 
 `sudo apt install curl lsb-release`
 
@@ -312,10 +324,9 @@ Log in op je Cloudflare account en hou deze op de achtergrond open!.
 
 `sudo cloudflared tunnel login`
 
-na het inbrengen van bovenstaande commando krijg je een URL knip en plak deze in een nieuw tabblad in je browser.
+Na het inbrengen van het bovenstaande commando krijg je een URL knip en plak deze in een nieuw tabblad in je browser.
 
-[https://dash.cloudflare.com/argotunnel?callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FXXXXXXXXXX](https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FC7_Sna9w_6j4N3RY3DIpas4q_QU4jbKlGZL13urHHlU%3D
-)
+https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FC7_Sna9w_6j4N3RY3DIpas4q_QU4jbKlGZL13urHHlU%3D
 
 `sudo cloudflared tunnel create SDR_RPI`
 
