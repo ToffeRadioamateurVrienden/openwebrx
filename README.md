@@ -295,20 +295,21 @@ Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 ---
 **SDR op het internet via Cloudflaretunnel**
 
-sudo apt install curl lsb-release
+`sudo apt install curl lsb-release`
 
-curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null
+`curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null`
 
-echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list
+`echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list`
 
-sudo apt update
+`sudo apt update`
 
-sudo apt install cloudflared
+`sudo apt install cloudflared`
 
-cloudflared tunnel login
+---
 
+Log in op je Cloudflare account en hou deze op de achtergrond open!.
 
-Ensure you keep Cloudflared open on your device while this process is completed.
+`cloudflared tunnel login`
 
 2. After running the above command, you will see the following message appear within the terminal.
 
