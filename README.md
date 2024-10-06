@@ -271,6 +271,48 @@ static routers en static domain_name_servers daar gebruik je de **Default Gatewa
 
 Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
+---
+**SDR op het internet via Cloudflaretunnel**
+
+sudo apt install curl lsb-release
+
+curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null
+
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list
+
+sudo apt update
+
+sudo apt install cloudflared
+
+cloudflared tunnel login
+
+
+Ensure you keep Cloudflared open on your device while this process is completed.
+
+2. After running the above command, you will see the following message appear within the terminal.
+
+You will want to go to the URL displayed in the message and use it to log in to your Cloudflare account.
+
+Please open the following URL and log in with your Cloudflare account:
+
+https://dash.cloudflare.com/argotunnel?callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FXXXXXXXXXX
+
+Leave cloudflared running to download the cert automatically.
+
+cloudflared tunnel create TUNNELNAME
+
+After running the above command, you will see a message similar to the one below.
+
+You will want to write down the ID as we will need this for later.
+
+Tunnel credentials written to /home/pi/.cloudflared/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.
+
+Created tunnel pimytunnel with id XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+Routing the Tunnel to a Domain Name
+
+
+
+
 
 
 
