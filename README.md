@@ -189,29 +189,30 @@ Waterfall color theme = Theme By Teejeez....
 
 **Settings ==> SDR device settings**
 
-Disable Airspy HF+ en SDRPlay (tenzij je dergelijke SDR hebt)
-
+<img src="assets/images/sdr_device_settings.png" width="800">
+Schakel de Airspy HF+ en SDRPlay uit (tenzij je dergelijke SDR hebt)
 
 **Settings ==> SDR device settings ==> RTL-SDR**
 
-<img src="assets/images/sdr_device_settings.png" width="500">
-<img src="assets/images/RTL_sdr_settings.png" width="500">
-<img src="assets/images/PS_2m.png" width="500">
-<img src="assets/images/PS_4m.png" width="500">
-<img src="assets/images/PS_6m.png" width="500">
-<img src="assets/images/PS_10m.png" width="500">
-<img src="assets/images/PS_11m.png" width="500">
-<img src="assets/images/PS_12m.png" width="500">
-<img src="assets/images/PS_15m.png" width="500">
-<img src="assets/images/PS_20m.png" width="500">
-<img src="assets/images/PS_70cm_1.png" width="500">
-<img src="assets/images/PS_70cm_2.png" width="500">
-<img src="assets/images/PS_70cm_3.png" width="500">
-<img src="assets/images/PS_70cm_4.png" width="500">
-<img src="assets/images/PS_70cm_5.png" width="500">
-<img src="assets/images/PS_adsb.png" width="500">
-<img src="assets/images/PS_air.png" width="500">
-<img src="assets/images/PS_ships.png" width="500">
+Maak de verschillende frequentie banden aan die je wenst te gebruiken.
+
+<img src="assets/images/RTL_sdr_settings.png" width="800">
+<img src="assets/images/PS_2m.png" width="800">
+<img src="assets/images/PS_4m.png" width="800">
+<img src="assets/images/PS_6m.png" width="800">
+<img src="assets/images/PS_10m.png" width="800">
+<img src="assets/images/PS_11m.png" width="800">
+<img src="assets/images/PS_12m.png" width="800">
+<img src="assets/images/PS_15m.png" width="800">
+<img src="assets/images/PS_20m.png" width="800">
+<img src="assets/images/PS_70cm_1.png" width="800">
+<img src="assets/images/PS_70cm_2.png" width="800">
+<img src="assets/images/PS_70cm_3.png" width="800">
+<img src="assets/images/PS_70cm_4.png" width="800">
+<img src="assets/images/PS_70cm_5.png" width="800">
+<img src="assets/images/PS_adsb.png" width="800">
+<img src="assets/images/PS_air.png" width="800">
+<img src="assets/images/PS_ships.png" width="800">
 
 ---
 
