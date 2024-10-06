@@ -361,25 +361,7 @@ ingress:
 
 
 
-
-
-https://stackoverflow.com/questions/31264165/can-i-share-my-private-github-repository-by-link
-
-Generate an invitation URL with a 1-week lifespan
-
-Get a temporary email address - e.g. using https://temp-mail.org/
-
-In your repository, go to "Settings" -> "Collaborators and teams" -> "Add people", enter the temporary email address, click "Invite to {your repo}" enter image description here
-
-Select the permission level you want this invite link to have, and click "Add {email}"
-
-In your temporary mailbox, you should receive the email containing an invitation link: enter image description here
-
-Right click on "View invitation" and copy the link.
-
-This link should look something like:
-
-https://github.com/{username}/{repository}/invitations?invitation_token=xxxxxxxxxxxxx
+[](https://pimylifeup.com/raspberry-pi-cloudflare-tunnel)
 
 
 
