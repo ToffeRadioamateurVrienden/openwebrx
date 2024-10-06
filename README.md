@@ -350,8 +350,8 @@ Connecting to your Cloudflare Tunnel on Boot
 [PORT] – 8073
 [PROTOCOL] – http
 
-tunnel: [TUNNELNAME]
-credentials-file: /home/[USERNAME]/.cloudflared/[UUID].json
+tunnel: SDR_RPI
+credentials-file: /home/demoUSR/.cloudflared/9061c4ac-903c-4fb5-ae05-5d2d4225b90a.json
 
 ingress:
     - hostname: [HOSTNAME]
