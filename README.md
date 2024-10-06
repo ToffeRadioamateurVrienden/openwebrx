@@ -321,8 +321,11 @@ na het inbrengen van bovenstaande commando krijg je een URL knip en plak deze in
 
 je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bawaar deze id!)
 
+cloudflared tunnel route dns TUNNELNAME DOMAINNAME
 
-Created tunnel pimytunnel with id XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+`sudo cloudflared tunnel route dns SDR_RPI pats.dns-cloud.net`
+
+
 Routing the Tunnel to a Domain Name
 
 
