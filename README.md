@@ -1,4 +1,4 @@
-### OpenwebRX  Installatie & Configuratie door ON3PDY. ###
+o### OpenwebRX  Installatie & Configuratie door ON3PDY. ###
 ---
 ## Benodigdheden ##
 <img src="assets/images/rpi_board.jpg" width="300">      <img src="assets/images/pi5.png" width="300">
@@ -332,8 +332,6 @@ https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudfl
 
 je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bawaar deze id!)
 
-cloudflared tunnel route dns TUNNELNAME DOMAINNAME
-
 `sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
 
 
@@ -345,12 +343,24 @@ Connecting to your Cloudflare Tunnel on Boot
 
 `sudo nano ~/.cloudflared/config.yml`
 
-[TUNNELNAME] – Replace this value with the name of your tunnel.
-[USERNAME] – This value will need to be replaced with your user’s name.
-[UUID] – You will need to specify the UUID that you got back in step 5 of this section.
-[HOSTNAME] – Swap this value out with the domain name you are planning to utilize. For example, “test.pimylifeup.com“.
-[PORT] – Finally, replace “PORT” with the port you want accessible through the tunnel.
-[PROTOCOL] – This is the protocol you want tobe utilized for your service. In the case of a web server, you will want to use “http” or “https“.
+[TUNNELNAME] – SDR_RPI
+[USERNAME] – demoUSR
+[UUID] – 9061c4ac-903c-4fb5-ae05-5d2d4225b90a
+[HOSTNAME] – sdr.pats.dns-cloud.net
+[PORT] – 8073
+[PROTOCOL] – http
+
+tunnel: [TUNNELNAME]
+credentials-file: /home/[USERNAME]/.cloudflared/[UUID].json
+
+ingress:
+    - hostname: [HOSTNAME]
+      service: [PROTOCOL]://localhost:[PORT]
+    - service: http_status:404
+
+
+
+
 
 
 https://stackoverflow.com/questions/31264165/can-i-share-my-private-github-repository-by-link
