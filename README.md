@@ -205,6 +205,7 @@ Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 <img src="assets/images/PS_11m.png" width="800">
 <img src="assets/images/PS_12m.png" width="800">
 <img src="assets/images/PS_15m.png" width="800">
+<img src="assets/images/PS_17m.png" width="800">
 <img src="assets/images/PS_20m.png" width="800">
 <img src="assets/images/PS_70cm_1.png" width="800">
 <img src="assets/images/PS_70cm_2.png" width="800">
