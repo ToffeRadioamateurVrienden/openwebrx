@@ -317,7 +317,7 @@ na het inbrengen van bovenstaande commando krijg je een URL knip en plak deze in
 [https://dash.cloudflare.com/argotunnel?callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FXXXXXXXXXX](https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FC7_Sna9w_6j4N3RY3DIpas4q_QU4jbKlGZL13urHHlU%3D
 )
 
-`cloudflared tunnel create SDR_RPI`
+`sudo cloudflared tunnel create SDR_RPI`
 
 je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bawaar deze id!)
 
@@ -327,9 +327,10 @@ cloudflared tunnel route dns TUNNELNAME DOMAINNAME
 
 
 Routing the Tunnel to a Domain Name
+`sudo cloudflared tunnel run --url localhost:8073  SDR_RPI`
 
 
-
+Connecting to your Cloudflare Tunnel on Boot
 
 
 
