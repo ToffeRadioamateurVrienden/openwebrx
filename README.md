@@ -323,16 +323,16 @@ je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae0
 
 cloudflared tunnel route dns TUNNELNAME DOMAINNAME
 
-`sudo cloudflared tunnel route dns SDR_RPI pats.dns-cloud.net`
+`sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
 
 
-Routing the Tunnel to a Domain Name
-`sudo cloudflared tunnel run --url localhost:8073  SDR_RPI`
+Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tunnel run --url localhost:PORT TUNNELNAME  http://localhost:8080
+`sudo cloudflared tunnel run --url http://localhost:8073 SDR_RPI`
 
 
 Connecting to your Cloudflare Tunnel on Boot
 
-
+`sudo nano ~/.cloudflared/config.yml`
 
 
 
