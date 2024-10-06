@@ -326,7 +326,7 @@ cloudflared tunnel route dns TUNNELNAME DOMAINNAME
 `sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
 
 
-Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tunnel run --url localhost:PORT TUNNELNAME  http://localhost:8080
+Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tunnel run --url localhost:PORT TUNNELNAME
 `sudo cloudflared tunnel run --url http://localhost:8073 SDR_RPI`
 
 
@@ -334,6 +334,12 @@ Connecting to your Cloudflare Tunnel on Boot
 
 `sudo nano ~/.cloudflared/config.yml`
 
+[TUNNELNAME] – Replace this value with the name of your tunnel.
+[USERNAME] – This value will need to be replaced with your user’s name.
+[UUID] – You will need to specify the UUID that you got back in step 5 of this section.
+[HOSTNAME] – Swap this value out with the domain name you are planning to utilize. For example, “test.pimylifeup.com“.
+[PORT] – Finally, replace “PORT” with the port you want accessible through the tunnel.
+[PROTOCOL] – This is the protocol you want tobe utilized for your service. In the case of a web server, you will want to use “http” or “https“.
 
 
 https://stackoverflow.com/questions/31264165/can-i-share-my-private-github-repository-by-link
