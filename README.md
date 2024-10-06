@@ -194,9 +194,10 @@ Schakel de Airspy HF+ en SDRPlay uit (tenzij je dergelijke SDR hebt)
 
 **Settings ==> SDR device settings ==> RTL-SDR**
 
+<img src="assets/images/RTL_sdr_settings.png" width="800">
+
 Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 
-<img src="assets/images/RTL_sdr_settings.png" width="800">
 <img src="assets/images/PS_2m.png" width="800">
 <img src="assets/images/PS_4m.png" width="800">
 <img src="assets/images/PS_6m.png" width="800">
