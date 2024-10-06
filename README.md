@@ -312,23 +312,15 @@ Log in op je Cloudflare account en hou deze op de achtergrond open!.
 
 `sudo cloudflared tunnel login`
 
-2. After running the above command, you will see the following message appear within the terminal.
+na het inbrengen van bovenstaande commando krijg je een URL knip en plak deze in een nieuw tabblad in je browser.
 
-You will want to go to the URL displayed in the message and use it to log in to your Cloudflare account.
+[https://dash.cloudflare.com/argotunnel?callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FXXXXXXXXXX](https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FC7_Sna9w_6j4N3RY3DIpas4q_QU4jbKlGZL13urHHlU%3D
+)
 
-Please open the following URL and log in with your Cloudflare account:
+`cloudflared tunnel create SDR_RPI`
 
-https://dash.cloudflare.com/argotunnel?callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FXXXXXXXXXX
+je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bawaar deze id!)
 
-Leave cloudflared running to download the cert automatically.
-
-cloudflared tunnel create TUNNELNAME
-
-After running the above command, you will see a message similar to the one below.
-
-You will want to write down the ID as we will need this for later.
-
-Tunnel credentials written to /home/pi/.cloudflared/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.
 
 Created tunnel pimytunnel with id XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Routing the Tunnel to a Domain Name
