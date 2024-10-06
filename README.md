@@ -192,7 +192,21 @@ Waterfall color theme = Theme By Teejeez....
 Disable Airspy HF+ en SDRPlay (tenzij je dergelijke SDR hebt)
 
 
+**Settings ==> SDR device settings ==> RTL-SDR**
 
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
+<img src="assets/images/ssh_1.png" width="500">
 
 ---
 
