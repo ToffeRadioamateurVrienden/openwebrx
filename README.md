@@ -327,9 +327,11 @@ Na het inbrengen van het bovenstaande commando krijg je een URL knip en plak dez
 
 https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FC7_Sna9w_6j4N3RY3DIpas4q_QU4jbKlGZL13urHHlU%3D
 
+volg de stappen, sluit de pagina en wacht tot het cert is geinstalleerd.
+
 `sudo cloudflared tunnel create SDR_RPI`
 
-je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bewaar deze id!)
+je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bewaar deze id!)  24183d3b-d6a2-4f19-a1d1-77e272918c3b
 
 `sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
 
@@ -340,9 +342,7 @@ Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tun
 
 **Connecting to your Cloudflare Tunnel on Boot**
 
-`cd /home/demoUSR/`
-
-`mkdir .cloudflared`
+mkdir /home/demoUSR/.cloudflared
 
 pas onderstaande aan naar je eigen situatie.
 
@@ -357,8 +357,8 @@ ingress:
 ==> aangepaste versie tussen de 2 @
 
 @
-tunnel: SDR_RPI
-credentials-file: /home/demoUSR/.cloudflared/9061c4ac-903c-4fb5-ae05-5d2d4225b90a.json
+tunnel: SDR_RPI2
+credentials-file: /home/demoUSR/.cloudflared/24183d3b-d6a2-4f19-a1d1-77e272918c3b.json
 
 ingress:
     - hostname: sdr.pats.dns-cloud.net
