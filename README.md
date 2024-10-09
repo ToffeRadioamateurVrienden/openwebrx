@@ -329,7 +329,7 @@ https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudfl
 
 `sudo cloudflared tunnel create SDR_RPI`
 
-je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bawaar deze id!)
+je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bewaar deze id!)
 
 `sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
 
@@ -340,7 +340,7 @@ Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tun
 
 **Connecting to your Cloudflare Tunnel on Boot**
 
-pas onderstaande aan naar je situatie en kopier dit naar je klembord.
+pas onderstaande aan naar je eigen situatie.
 
 tunnel: [TUNNELNAME]
 credentials-file: /home/[USERNAME]/.cloudflared/[UUID].json
@@ -350,7 +350,8 @@ ingress:
       service: [PROTOCOL]://localhost:[PORT]
     - service: http_status:404
 
-==>
+==> aangepaste versie tussen de 2 @
+
 @
 tunnel: SDR_RPI
 credentials-file: /home/demoUSR/.cloudflared/9061c4ac-903c-4fb5-ae05-5d2d4225b90a.json
@@ -362,6 +363,8 @@ ingress:
 @
 
 `sudo nano ~/.cloudflared/config.yml`
+
+Ga naar Raw mode en kopier de aangepaste tekst tussen de 2 @ tekens
 
 Plak bovenstaande in het geopende bestand en sluit met CTRL+X bevestig met Y en enter.
 
