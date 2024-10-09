@@ -12,7 +12,7 @@ Alle versies vanaf een V3 kunnen dienen voor dit project.
 [**Behuizing & Koeling**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-behuizing-voor-pi-5-zwart-11584?_gl=1*1a7n6vn*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 
 [**Voeding**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-27w-usb-c-power-supply-zwart-eu-11582?_gl=1*p4xdg9*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
-Voeding 5.1V - minimum Ampere hangt af van de gebruikte Versie van Raspberry Pi.
+Voeding 5.1V - aansluiting en vermogen hangen af van de gebruikte Raspberry Pi versie.
 
 [**SD kaart**](https://www.kiwi-electronics.com/nl/transcend-32gb-microsd-premium-class-10-uhs-i-plus-adapter-303?search=sd%20kaart)
 MicroSD kaart minimaal 8Gb.
@@ -182,7 +182,7 @@ Receiver Avatar + Receiver Panorama : upload bestanden
 
 Allow users to change center frequency = aanvinken
 
-Magic key = kies een wachtwoord indien gewenst ==> http://localhost:8073/#freq=14000000,mod=usb,sql=-150 **,key=on4trv**
+Magic key = kies een wachtwoord indien je dit wenst. ==> http://localhost:8073/#freq=14000000,mod=usb,sql=-150 **,key=on4trv**
 
 Waterfall color theme = Theme By Teejeez....
 
@@ -338,26 +338,38 @@ Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tun
 `sudo cloudflared tunnel run --url http://localhost:8073 SDR_RPI`
 
 
-Connecting to your Cloudflare Tunnel on Boot
+**Connecting to your Cloudflare Tunnel on Boot**
 
-`sudo nano ~/.cloudflared/config.yml`
+pas onderstaande aan naar je situatie en kopier dit naar je klembord.
 
-[TUNNELNAME] – SDR_RPI
-[USERNAME] – demoUSR
-[UUID] – 9061c4ac-903c-4fb5-ae05-5d2d4225b90a
-[HOSTNAME] – sdr.pats.dns-cloud.net
-[PORT] – 8073
-[PROTOCOL] – http
-
-tunnel: SDR_RPI
-credentials-file: /home/demoUSR/.cloudflared/9061c4ac-903c-4fb5-ae05-5d2d4225b90a.json
+tunnel: [TUNNELNAME]
+credentials-file: /home/[USERNAME]/.cloudflared/[UUID].json
 
 ingress:
     - hostname: [HOSTNAME]
       service: [PROTOCOL]://localhost:[PORT]
     - service: http_status:404
 
+==>
+@
+tunnel: SDR_RPI
+credentials-file: /home/demoUSR/.cloudflared/9061c4ac-903c-4fb5-ae05-5d2d4225b90a.json
 
+ingress:
+    - hostname: sdr.pats.dns-cloud.net
+      service: http://localhost:8073
+    - service: http_status:404
+@
+
+`sudo nano ~/.cloudflared/config.yml`
+
+Plak bovenstaande in het geopende bestand en sluit met CTRL+X bevestig met Y en enter.
+
+`sudo cloudflared --config ~/.cloudflared/config.yml service install`
+
+`sudo systemctl enable cloudflared`
+
+`sudo systemctl start cloudflared`
 
 
 [](https://pimylifeup.com/raspberry-pi-cloudflare-tunnel)
