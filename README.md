@@ -233,9 +233,7 @@ We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  
 
 Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
-Eerst maken we het bestand compleet leeg CTRL+K verwijderd lijn per lijn
-
-You can press Alt+\ keys for that. Now press Alt+T and it will delete all the text from your current cursor position
+Eerst maken we het bestand compleet leeg zet cursor bovenaan (CTRL+K)
 
 schakel over naar RAW mode en kopier wat TUSSEN de 2 @ tekens staat in je klembord.
 
