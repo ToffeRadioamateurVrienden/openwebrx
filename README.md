@@ -34,6 +34,8 @@ Persoonlijk heb ik deze modellen in mijn shack.
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [Win32 Disk Imager](https://win32diskimager.org/)
+- [balenaEtcher](https://balenaetcher.en.download.it/download)
 
 ---
 
@@ -376,8 +378,17 @@ Plak bovenstaande in het geopende bestand en sluit met CTRL+X bevestig met Y en 
 
 `sudo systemctl start cloudflared`
 
+**VIA reeds opgeslagen backup**
 
-[](https://pimylifeup.com/raspberry-pi-cloudflare-tunnel)
+Hiervoor gebruik ik balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
+<img src="assets/images/balena.png" width="800">
+Na het schrijven de SDkaart terug in de RPI plaatsen en opstarten.
+krijg je onderstaande klik op annuleren en sluit het scherm.
+<img src="assets/images/error.png" width="400">
+
+
+**Interesante links**
+[Cheatsheets/Learn Raspberry Pi](https://www.codecademy.com/learn/learn-raspberry-pi/modules/raspberry-pi-command-line-module/cheatsheet)
 
 
 
