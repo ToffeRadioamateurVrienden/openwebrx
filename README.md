@@ -381,7 +381,7 @@ Plak bovenstaande in het geopende bestand en sluit met CTRL+X bevestig met Y en 
 **VIA reeds opgeslagen backup**
 
 Hiervoor gebruik ik balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
-<img src="assets/images/balena.png" width="800">
+<img src="assets/images/etcher.png" width="800">
 Na het schrijven de SDkaart terug in de RPI plaatsen en opstarten.
 krijg je onderstaande klik op annuleren en sluit het scherm.
 <img src="assets/images/error.png" width="400">
