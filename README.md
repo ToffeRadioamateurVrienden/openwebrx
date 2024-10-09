@@ -386,7 +386,7 @@ Navigeer naar een folder en geef een zinvolle bestandsnaam op gevolgd door **.im
 
 Selecteer het juiste doelapparaat. Klik op Lezen en wacht tot het inlezen voltooid is.
 
-<img src="assets/images/winD32.png" width="800">
+<img src="assets/images/winD32.png" width="500">
 
 Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats in een tekstbestand.
 
@@ -396,7 +396,7 @@ Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats
 **VIA reeds opgeslagen backup**
 
 Hiervoor gebruik ik balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
-<img src="assets/images/etcher.png" width="800">
+<img src="assets/images/etcher.png" width="700">
 
 Na het schrijven de SDkaart terug in de RPI plaatsen en opstarten.
 
