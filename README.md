@@ -378,6 +378,21 @@ Plak bovenstaande in het geopende bestand en sluit met CTRL+X bevestig met Y en 
 
 `sudo systemctl start cloudflared`
 
+**BACKUP maken !!!**
+
+hiervoor gebruik ik Win32 Disk Imager. 
+
+Navigeer naar een folder en geef een zinvolle bestandsnaam op gevolgd door **.img**
+
+Selecteer het juiste doelapparaat. Klik op Lezen en wacht tot het inlezen voltooid is.
+
+<img src="assets/images/winD32.png" width="800">
+
+Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats in een tekstbestand.
+
+
+
+
 **VIA reeds opgeslagen backup**
 
 Hiervoor gebruik ik balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
