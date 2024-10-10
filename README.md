@@ -170,7 +170,7 @@ Receiver location = Lubbeek, Belgium
 
 Receiver elevation = 200
 
-Receiver admin = info@tofferradiovrienden.be
+Receiver admin = info@trvrienden.be
 
 Receiver band plan = ITU Region 1 (Africa, Europe, Middle East, North Asia)
 
