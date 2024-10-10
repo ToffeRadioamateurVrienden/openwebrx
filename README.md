@@ -329,24 +329,27 @@ https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudfl
 
 volg de stappen, sluit de pagina en wacht tot het cert is geinstalleerd.
 
-`sudo cloudflared tunnel create SDR`
+`sudo cloudflared tunnel create SDR_1`
 
 je krijgt nu de melding  **Created tunnel SDR with id PP9061c4ac-903c-4fb5-ae05-MM** (bewaar deze id!)  
 
-`sudo cloudflared tunnel route dns SDR sdr.pats.dns-cloud.net`
+`sudo cloudflared tunnel route dns SDR_1 sdr.pats.dns-cloud.net`
 
 
 Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tunnel run --url localhost:PORT TUNNELNAME
-`sudo cloudflared tunnel run --url http://localhost:8073 SDR`
+`sudo cloudflared tunnel run --url http://localhost:8073 SDR_1`
 
 
 **Connecting to your Cloudflare Tunnel on Boot**
 
+sudo mkdir /home/demoUSR/.cloudflared
+	
+sudo nano /home/demoUSR/.cloudflared/config.yml
 
-pas onderstaande aan naar je eigen situatie.
+pas onderstaande aan naar je eigen situatie. (in kladblok voorbereiden)
 
 tunnel: [TUNNELNAME]
-credentials-file: /home/[USERNAME]/.cloudflared/[UUID].json
+credentials-file: /root/.cloudflared/[UUID].json
 
 ingress:
     - hostname: [HOSTNAME]
@@ -356,8 +359,8 @@ ingress:
 ==> aangepaste versie tussen de 2 @
 
 @
-tunnel: SDR_RPI2
-credentials-file: /home/demoUSR/.cloudflared/***********.json
+tunnel: SDR_1
+credentials-file:  /root/.cloudflared/[UUID].json
 
 ingress:
     - hostname: sdr.pats.dns-cloud.net
@@ -367,15 +370,15 @@ ingress:
 
 `sudo nano ~/.cloudflared/config.yml`
 
-Ga naar Raw mode en kopier de aangepaste tekst tussen de 2 @ tekens
-
-Plak bovenstaande in het geopende bestand en sluit met CTRL+X bevestig met Y en enter.
+Plak in het geopende bestand de voorbereide informatie en sluit met CTRL+X bevestig met Y en enter.
 
 `sudo cloudflared --config ~/.cloudflared/config.yml service install`
 
 `sudo systemctl enable cloudflared`
 
 `sudo systemctl start cloudflared`
+
+---
 
 **BACKUP maken !!!**
 
@@ -390,6 +393,7 @@ Selecteer het juiste doelapparaat. Klik op Lezen en wacht tot het inlezen voltoo
 Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats in een tekstbestand.
 
 
+---
 
 
 **VIA reeds opgeslagen backup**
