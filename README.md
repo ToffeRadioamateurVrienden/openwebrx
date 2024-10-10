@@ -331,7 +331,7 @@ volg de stappen, sluit de pagina en wacht tot het cert is geinstalleerd.
 
 `sudo cloudflared tunnel create SDR_RPI`
 
-je krijgt nu de melding  **Created tunnel SDR_RPI with id 9061c4ac-903c-4fb5-ae05-5d2d4225b90a** (bewaar deze id!)  24183d3b-d6a2-4f19-a1d1-77e272918c3b
+je krijgt nu de melding  **Created tunnel SDR_RPI with id PP9061c4ac-903c-4fb5-ae05-MM** (bewaar deze id!)  
 
 `sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
 
@@ -358,7 +358,7 @@ ingress:
 
 @
 tunnel: SDR_RPI2
-credentials-file: /home/demoUSR/.cloudflared/24183d3b-d6a2-4f19-a1d1-77e272918c3b.json
+credentials-file: /home/demoUSR/.cloudflared/***********.json
 
 ingress:
     - hostname: sdr.pats.dns-cloud.net
@@ -414,8 +414,6 @@ Log in to Cloudflare and go to your Profile
 Scroll down and View your Global API Key
 Complete the password challenge and note your key
 
-418d16e02a646242879cd88def7ca04831b14
-
 mkdir cf
 
 Create a new file called lwp-cloudflare-dyndns.sh and put it in the folder you’ve created.
@@ -431,7 +429,7 @@ https://letswp.justifiedgrid.com/cloudflare-as-dynamic-dns-raspberry-pi/
 
 # Update these with real values
 auth_email="66patske@gmail.com"
-auth_key="418d16e02a646242879cd88def7ca04831b14" 
+auth_key="*****************************************" 
 zone_name="example.com"
 record_name="home.example.com"
 
