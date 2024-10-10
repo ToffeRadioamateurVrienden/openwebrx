@@ -329,20 +329,19 @@ https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudfl
 
 volg de stappen, sluit de pagina en wacht tot het cert is geinstalleerd.
 
-`sudo cloudflared tunnel create SDR_RPI`
+`sudo cloudflared tunnel create SDR`
 
-je krijgt nu de melding  **Created tunnel SDR_RPI with id PP9061c4ac-903c-4fb5-ae05-MM** (bewaar deze id!)  
+je krijgt nu de melding  **Created tunnel SDR with id PP9061c4ac-903c-4fb5-ae05-MM** (bewaar deze id!)  
 
-`sudo cloudflared tunnel route dns SDR_RPI sdr.pats.dns-cloud.net`
+`sudo cloudflared tunnel route dns SDR sdr.pats.dns-cloud.net`
 
 
 Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tunnel run --url localhost:PORT TUNNELNAME
-`sudo cloudflared tunnel run --url http://localhost:8073 SDR_RPI`
+`sudo cloudflared tunnel run --url http://localhost:8073 SDR`
 
 
 **Connecting to your Cloudflare Tunnel on Boot**
 
-mkdir /home/demoUSR/.cloudflared
 
 pas onderstaande aan naar je eigen situatie.
 
@@ -408,86 +407,7 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 **Interesante links**
 [Cheatsheets/Learn Raspberry Pi](https://www.codecademy.com/learn/learn-raspberry-pi/modules/raspberry-pi-command-line-module/cheatsheet)
 
-https://letswp.justifiedgrid.com/cloudflare-as-dynamic-dns-raspberry-pi/
 
-Log in to Cloudflare and go to your Profile
-Scroll down and View your Global API Key
-Complete the password challenge and note your key
-
-mkdir cf
-
-Create a new file called lwp-cloudflare-dyndns.sh and put it in the folder you’ve created.
-https://letswp.justifiedgrid.com/cloudflare-as-dynamic-dns-raspberry-pi/
-
-
-
-#!/bin/bash
-# Cloudflare as Dynamic DNS
-# From: https://letswp.io/cloudflare-as-dynamic-dns-raspberry-pi/
-# Based on: https://gist.github.com/benkulbertis/fff10759c2391b6618dd/
-# Original non-RPi article: https://phillymesh.net/2016/02/23/setting-up-dynamic-dns-for-your-registered-domain-through-cloudflare/
-
-# Update these with real values
-auth_email="66patske@gmail.com"
-auth_key="*****************************************" 
-zone_name="example.com"
-record_name="home.example.com"
-
-# Don't touch these
-ip=$(curl -s http://ipv4.icanhazip.com)
-ip_file="ip.txt"
-id_file="cloudflare.ids"
-log_file="cloudflare.log"
-
-# Keep files in the same folder when run from cron
-current="$(pwd)"
-cd "$(dirname "$(readlink -f "$0")")"
-
-log() {
-    if [ "$1" ]; then
-        echo -e "[$(date)] - $1" >> $log_file
-    fi
-}
-
-log "Check Initiated"
-
-if [ -f $ip_file ]; then
-    old_ip=$(cat $ip_file)
-    if [ $ip == $old_ip ]; then
-        log "IP has not changed."
-        exit 0
-    fi
-fi
-
-if [ -f $id_file ] && [ $(wc -l $id_file | cut -d " " -f 1) == 2 ]; then
-    zone_identifier=$(head -1 $id_file)
-    record_identifier=$(tail -1 $id_file)
-else
-    zone_identifier=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=$zone_name" -H "X-Auth-Email: $auth_email" -H "X-Auth-Key: $auth_key" -H "Content-Type: application/json" | grep -Po '(?<="id":")[^"]*' | head -1 )
-    record_identifier=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$zone_identifier/dns_records?name=$record_name" -H "X-Auth-Email: $auth_email" -H "X-Auth-Key: $auth_key" -H "Content-Type: application/json"  | grep -Po '(?<="id":")[^"]*')
-    echo "$zone_identifier" > $id_file
-    echo "$record_identifier" >> $id_file
-fi
-
-update=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zone_identifier/dns_records/$record_identifier" -H "X-Auth-Email: $auth_email" -H "X-Auth-Key: $auth_key" -H "Content-Type: application/json" --data "{\"id\":\"$zone_identifier\",\"type\":\"A\",\"name\":\"$record_name\",\"content\":\"$ip\"}")
-
-if [[ $update == *"\"success\":false"* ]]; then
-    message="API UPDATE FAILED. DUMPING RESULTS:\n$update"
-    log "$message"
-    echo -e "$message"
-    exit 1 
-else
-    message="IP changed to: $ip"
-    echo "$ip" > $ip_file
-    log "$message"
-    echo "$message"
-fi
-
-CTRL+X yes
-
-cd ..
-
-sudo chmod +x cf/lwp-cloudflare-dyndns.sh
 
 
 
