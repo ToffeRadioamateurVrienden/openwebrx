@@ -325,8 +325,6 @@ Terug naar de Raspberry Pi.
 
 `sudo apt install cloudflared`
 
---- NOT ON SD ---
-
 Log in op je Cloudflare account en hou deze op de achtergrond open!.
 
 `sudo cloudflared tunnel login`
