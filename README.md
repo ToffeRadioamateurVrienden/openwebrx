@@ -139,6 +139,9 @@ Log opnieuw in op de RPI om een OpenWebRx admin web gebruiker en wachtwoord inst
 
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
+`sudo openwebrx admin adduser admin` als demo ook paswoord admin
+
+
 <img src="assets/images/put_3.png" width="500">
 
 Deze zijn ook interesante commando's betreft gebruiker administratie.
