@@ -43,7 +43,9 @@ Persoonlijk heb ik deze modellen in mijn shack.
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/openwebrx/releases/)
 
-Kies hier voor het zip bestand (voor V3 32bit voor V4 kan je ook de 64bit versie gebruiken) . **image_2024-08-26-OpenWebRX+-32bit-v1.2.67.zip**
+Kies hier voor het zip bestand (voor V3 32bit! voor V4 kan je zowel de 32 of 64bit versie gebruiken).
+
+**image_2024-08-26-OpenWebRX+-32bit-v1.2.67.zip**
 
 
 Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberry Pi Imager**
