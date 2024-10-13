@@ -325,68 +325,7 @@ Terug naar de Raspberry Pi.
 
 `sudo apt install cloudflared`
 
-Log in op je Cloudflare account en hou deze op de achtergrond open!.
-
-`sudo cloudflared tunnel login`
-
-Na het inbrengen van het bovenstaande commando krijg je een URL knip en plak deze in een nieuw tabblad in je browser.
-
-https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FC7_Sna9w_6j4N3RY3DIpas4q_QU4jbKlGZL13urHHlU%3D
-
-volg de stappen, sluit de pagina en wacht tot het cert is geinstalleerd.
-
-`sudo cloudflared tunnel create SDR_1`
-
-je krijgt nu de melding  **Created tunnel SDR with id PP9061c4ac-903c-4fb5-ae05-MM** (bewaar deze id!)  
-
-`sudo cloudflared tunnel route dns SDR_1 sdr.pats.dns-cloud.net`
-
-
-Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tunnel run --url localhost:PORT TUNNELNAME
-`sudo cloudflared tunnel run --url http://localhost:8073 SDR_1`
-
-
-**Connecting to your Cloudflare Tunnel on Boot**
-
-sudo mkdir /home/demoUSR/.cloudflared  
-
-sudo mkdir ~/.cloudflared  
-
-sudo nano ~/.cloudflared/config.yml
-	
-sudo nano /home/demoUSR/.cloudflared/config.yml
-
-pas onderstaande aan naar je eigen situatie. (in kladblok voorbereiden)
-
-tunnel: [TUNNELNAME]
-credentials-file: /root/.cloudflared/[UUID].json
-
-ingress:
-    - hostname: [HOSTNAME]
-      service: [PROTOCOL]://localhost:[PORT]
-    - service: http_status:404
-
-==> aangepaste versie tussen de 2 @
-
-@
-tunnel: SDR_1
-credentials-file:  /root/.cloudflared/[UUID].json
-
-ingress:
-    - hostname: sdr.pats.dns-cloud.net
-      service: http://localhost:8073
-    - service: http_status:404
-@
-
-`sudo nano ~/.cloudflared/config.yml`
-
-Plak in het geopende bestand de voorbereide informatie en sluit met CTRL+X bevestig met Y en enter.
-
-`sudo cloudflared --config ~/.cloudflared/config.yml service install`
-
-`sudo systemctl enable cloudflared`
-
-`sudo systemctl start cloudflared`
+http://sdr.pats.dns-cloud.net/#freq=145725000,mod=nfm,sql=-150
 
 ---
 
