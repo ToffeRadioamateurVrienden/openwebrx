@@ -348,7 +348,11 @@ Routing the Tunnel to a Domain Name   (http://192.168.1.37:8073) cloudflared tun
 
 **Connecting to your Cloudflare Tunnel on Boot**
 
-sudo mkdir /home/demoUSR/.cloudflared
+sudo mkdir /home/demoUSR/.cloudflared  
+
+sudo mkdir ~/.cloudflared  
+
+sudo nano ~/.cloudflared/config.yml
 	
 sudo nano /home/demoUSR/.cloudflared/config.yml
 
