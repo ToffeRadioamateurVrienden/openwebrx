@@ -380,6 +380,23 @@ Selecteer Hostnaam en druk op Enter of selecteer Ok als u een waarschuwing krijg
 
 `sudo usermod newuser_name -a -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio`
 
+---
+
+Bookmarks aanpassen 
+
+`cd /etc/openwebrx/bookmarks.d/`
+
+`ls`
+
+`sudo nano cb.json`
+
+Herstart openWebRX via:
+
+`sudo reboot`
+
+`sudo poweroff`
+
+
 **Interesante links**
 [Cheatsheets/Learn Raspberry Pi](https://www.codecademy.com/learn/learn-raspberry-pi/modules/raspberry-pi-command-line-module/cheatsheet)
 
