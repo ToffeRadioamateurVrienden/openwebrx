@@ -365,6 +365,11 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 Selecteer Hostnaam en druk op Enter of selecteer Ok als u een waarschuwing krijgt waarin staat dat u geen speciale tekens mag gebruiken in de hostnaam van de Raspberry Pi.
 
+<img src="assets/images/raspi_config_1.png" width="300">
+<img src="assets/images/raspi_config_2.png" width="300">
+<img src="assets/images/raspi_config_3.png" width="300">
+<img src="assets/images/raspi_config_4.png" width="300">
+<img src="assets/images/raspi_config_5.png" width="300">
 ---
 
 ***User & Paswoord wijzigen***
