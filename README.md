@@ -378,7 +378,7 @@ Selecteer Hostnaam en druk op Enter of selecteer Ok als u een waarschuwing krijg
 
 `sudo adduser newuser_name`
 
-`sudo usermod newuser_name -a -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio`
+`sudo usermod newuser_name -a -G openwebrx,adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio`
 
 ---
 
