@@ -359,6 +359,14 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 ---
 
+***Verander de Raspberry Pi Hostname***
+
+`sudo raspi-config`
+
+Selecteer Hostnaam en druk op Enter of selecteer Ok als u een waarschuwing krijgt waarin staat dat u geen speciale tekens mag gebruiken in de hostnaam van de Raspberry Pi.
+
+---
+
 ***User & Paswoord wijzigen***
 
 `sudo adduser XXXXXXX sudo`
