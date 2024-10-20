@@ -370,6 +370,8 @@ Selecteer Hostnaam en druk op Enter of selecteer Ok als u een waarschuwing krijg
 <img src="assets/images/raspi_config_3.png" width="600">
 <img src="assets/images/raspi_config_4.png" width="600">
 <img src="assets/images/raspi_config_5.png" width="600">
+<img src="assets/images/raspi_config_6.png" width="600">
+
 ---
 
 ***User & Paswoord wijzigen***
