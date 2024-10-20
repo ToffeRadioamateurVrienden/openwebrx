@@ -347,7 +347,7 @@ Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats
 
 **VIA reeds opgeslagen backup**
 
-Hiervoor gebruik ik balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
+Hiervoor gebruik ik bij voorkeur balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
 <img src="assets/images/etcher.png" width="700">
 
 Na het schrijven de SDkaart terug in de RPI plaatsen en opstarten.
@@ -355,6 +355,11 @@ Na het schrijven de SDkaart terug in de RPI plaatsen en opstarten.
 Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 <img src="assets/images/error.png" width="300">
+
+
+---
+
+***User & Paswoord wijzigen***
 
 
 **Interesante links**
