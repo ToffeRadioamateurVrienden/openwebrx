@@ -398,18 +398,18 @@ Bookmarks aanpassen
 
 [
     {
-    "name": "Example_1",
-    "frequency": 145725000,
+    "name": "TRV",
+    "frequency": 144900000,
     "modulation": "nfm"
   },
   {
-    "name": "Example_2",
-    "frequency": 145750000,
+    "name": "2_m_example",
+    "frequency": 145275000,
     "modulation": "nfm"
   },
   {
-    "name": "Example_3",
-    "frequency": 145787500,
+    "name": "70_cm_example",
+    "frequency": 439000000,
     "modulation": "nfm"
   }
 ]
