@@ -390,9 +390,38 @@ Bookmarks aanpassen
 
 `sudo nano cb.json`
 
+
+
+`sudo nano /var/lib/openwebrx/bookmarks.json`   (bevat de lokale bladwijzers die zelf zijn toegevoegd)
+
+/etc/openwebrx/bookmarks.json   holds the additional bookmarks
+
+[
+    {
+    "name": "Example_1",
+    "frequency": 145725000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "Example_2",
+    "frequency": 145750000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "Example_3",
+    "frequency": 145787500,
+    "modulation": "nfm"
+  }
+]
+
+
 Herstart openWebRX via:
 
-`sudo reboot`
+`sudo systemctl stop openwebrx.service`
+
+`sudo systemctl start openwebrx.service`
+
+---
 
 `sudo poweroff`
 
