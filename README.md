@@ -361,6 +361,17 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 ***User & Paswoord wijzigen***
 
+`sudo adduser XXXXXXX sudo`
+
+`sudo adduser newuser_name`
+
+`sudo usermod newuser_name -a -G pi,adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio`
+
+`sudo visudo`
+
+Scroll down to the bottom of the file and duplicate the entry for "pi", using the new users name. 
+Don't delete/edit the "pi" entry until after you're sure the new user is working correctly.
+
 
 **Interesante links**
 [Cheatsheets/Learn Raspberry Pi](https://www.codecademy.com/learn/learn-raspberry-pi/modules/raspberry-pi-command-line-module/cheatsheet)
