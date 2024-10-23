@@ -628,6 +628,16 @@ Herstart openWebRX via:
 
 ---
 
+SDR op het internet.
+
+
+armhf architecture (32-bit Raspberry Pi)
+
+`wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm
+sudo mv -f ./cloudflared-linux-arm /usr/local/bin/cloudflared
+sudo chmod +x /usr/local/bin/cloudflared
+cloudflared -v`
+
 `sudo poweroff`
 
 
