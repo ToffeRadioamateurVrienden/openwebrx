@@ -630,6 +630,20 @@ Herstart openWebRX via:
 
 SDR op het internet.
 
+maak een gratis account aan op  [cloudns](https://www.cloudns.net/)
+
+maak een gratis account aan op  [cloudflare.com](https://dash.cloudflare.com/)
+
+onder DNS ==> Records maak je een CNAME aan met de verkregen cloudns naam.
+
+wat lager op dezelfde pagina vindt je de rubriek ***Cloudflare Nameservers***
+
+Every DNS zone on Cloudflare is assigned a set of Cloudflare-branded nameservers.
+Type	Value
+NS	example1.ns.cloudflare.com
+NS	example2.ns.cloudflare.com
+
+Deze 2 verkregen DNS servers moet je nu inbrengen in cloudns, doe dit ook voor de complete naam die je zal gaan gebruiken.
 
 armhf architecture (32-bit Raspberry Pi)
 
@@ -637,6 +651,39 @@ armhf architecture (32-bit Raspberry Pi)
 sudo mv -f ./cloudflared-linux-arm /usr/local/bin/cloudflared
 sudo chmod +x /usr/local/bin/cloudflared
 cloudflared -v`
+
+arm64 architecture (64-bit Raspberry Pi)
+
+`wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64
+sudo mv -f ./cloudflared-linux-arm64 /usr/local/bin/cloudflared
+sudo chmod +x /usr/local/bin/cloudflared
+cloudflared -v`
+
+
+kies ***If you already have cloudflared installed on your machine:*** en kopier dit naar het bureaublad.
+
+VB: `sudo cloudflared service install eyJhIjoiMDEz....9`
+
+
+
+Configuring cloudflared to run on startup
+
+Create a cloudflared user to run the daemon:
+
+
+sudo useradd -s /usr/sbin/nologin -r -M cloudflared
+Proceed to create a configuration file for cloudflared:
+
+
+sudo nano /etc/default/cloudflared
+Edit configuration file by copying the following in to /etc/default/cloudflared. This file contains the command-line options that get passed to cloudflared on startup:
+
+
+# Commandline args for cloudflared, using Cloudflare DNS
+CLOUDFLARED_OPTS=--port 5053 --upstream https://cloudflare-dns.com/dns-query
+
+
+---
 
 `sudo poweroff`
 
