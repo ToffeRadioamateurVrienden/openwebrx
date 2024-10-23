@@ -682,7 +682,7 @@ Edit configuration file by copying the following in to /etc/default/cloudflared.
 # Commandline args for cloudflared, using Cloudflare DNS
 CLOUDFLARED_OPTS=--port 5053 --upstream https://cloudflare-dns.com/dns-query
 
-
+https://docs.pi-hole.net/guides/dns/cloudflared/
 ---
 
 `sudo poweroff`
