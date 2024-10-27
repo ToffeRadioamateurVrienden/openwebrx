@@ -29,7 +29,7 @@ Persoonlijk heb ik deze modellen in mijn shack.
 - RTL-SDR
 - SdrPlay
 
-<img src="assets/images/rtl-sdr.jpg" width="150"><img src="assets/images/sdrplay.jpg" width="300">
+<img src="assets/images/rtl-sdr.jpg" height="150"><img src="assets/images/sdrplay.jpg" height="300">
 
 **Programma's**
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
