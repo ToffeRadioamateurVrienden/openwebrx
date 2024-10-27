@@ -5,16 +5,6 @@
     "modulation": "nfm"
   },
   {
-    "name": "2_m_example",
-    "frequency": 145275000,
-    "modulation": "nfm"
-  },
-  {
-    "name": "70_cm_example",
-    "frequency": 439000000,
-    "modulation": "nfm"
-  },
-  {
         "name" : "CB1",
         "frequency" : 26965000,
         "modulation" : "fm"
