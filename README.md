@@ -241,25 +241,7 @@ Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
 Eerst maken we het bestand compleet leeg zet cursor bovenaan (CTRL+K)
 
-schakel over naar RAW mode en kopier wat TUSSEN de 2 @ tekens staat in je klembord.
-
-@
-
-// Plugin initialization.
-// First load the utils, needed for some plugins
-Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js').then(async function () {
-  Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.js')
-    .then(async function () {
-    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/frequency_far_jump/frequency_far_jump.js');
-    await Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/notify/notify.js');
-    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/keyboard_shortcuts/keyboard_shortcuts.js');
-    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/map/layer_qth_maidenhead/layer_qth_maidenhead.js');
-    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/sort_profiles/sort_profiles.js');
-    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/tune_checkbox/tune_checkbox.js');
-  });
-});
-
-@
+we kopieren en plakken de inhoud van Plugins.json via het klembord (conf_files/Plugins.json)
 
 CTRL+X ==> save modified buffer Yes
 
@@ -297,33 +279,6 @@ static routers en static domain_name_servers daar gebruik je de **Default Gatewa
 Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
 
 ---
-**SDR op het internet**
-
-Maak een gratis account aan op [ClouDNS](https://www.cloudns.net) tenzij je een domeinnaam bezit dan kan je deze gebruiken.
-
-Maak een gratis account aan op [Cloudflare](https://dash.cloudflare.com)
-
-In Cloudflare krijg je na het toevoegen van je domain (aangemaakt in ClouDNS) 2 naamservers.
-
-Deze moeten we nu registreren in ClouDNS toevoegen als NS voor elke naam die je wenst te gebruiken.
-
-Als alles goed is (kan enige tijd duren!) staat er bovenaan bij Cloudflare onder websites bovenaan in het groen Active.
-
-Terug naar de Raspberry Pi.
-
-`sudo apt install curl lsb-release`
-
-`curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null`
-
-`echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list`
-
-`sudo apt update`
-
-`sudo apt install cloudflared`
-
-http://sdr.pats.dns-cloud.net/#freq=145725000,mod=nfm,sql=-150
-
----
 
 **BACKUP maken !!!**
 
@@ -337,11 +292,9 @@ Selecteer het juiste doelapparaat. Klik op Lezen en wacht tot het inlezen voltoo
 
 Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats in een tekstbestand.
 
-
 ---
 
-
-**VIA reeds opgeslagen backup**
+**Herstellen VIA een reeds opgeslagen backup**
 
 Hiervoor gebruik ik bij voorkeur balenaEtcher (niet nodig om een zip of rar bestand uit te pakken)
 <img src="assets/images/etcher.png" width="700">
@@ -624,22 +577,30 @@ Herstart openWebRX via:
 
 ---
 
-SDR op het internet.
 
-maak een gratis account aan op  [cloudns](https://www.cloudns.net/)
 
-maak een gratis account aan op  [cloudflare.com](https://dash.cloudflare.com/)
 
-onder DNS ==> Records maak je een CNAME aan met de verkregen cloudns naam.
+---
+**SDR op het internet**
 
-wat lager op dezelfde pagina vindt je de rubriek ***Cloudflare Nameservers***
+Maak een gratis account aan op [Cloudflare](https://dash.cloudflare.com)
 
-Every DNS zone on Cloudflare is assigned a set of Cloudflare-branded nameservers.
-Type	Value
-NS	example1.ns.cloudflare.com
-NS	example2.ns.cloudflare.com
 
-Deze 2 verkregen DNS servers moet je nu inbrengen in cloudns, doe dit ook voor de complete naam die je zal gaan gebruiken.
+`sudo apt install curl lsb-release`
+
+`curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null`
+
+`echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list`
+
+`sudo apt update`
+
+`sudo apt install cloudflared`
+
+http://sdr.pats.dns-cloud.net/#freq=145725000,mod=nfm,sql=-150
+
+---
+
+
 
 armhf architecture (32-bit Raspberry Pi)
 
