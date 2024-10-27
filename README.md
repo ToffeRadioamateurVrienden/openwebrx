@@ -131,6 +131,10 @@ Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit 
 
 `sudo reboot`
 
+De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen.
+
+`sudo install-softmbe.sh`
+
 <img src="assets/images/ssh_1.png" width="500">
 
 `sudo rpi-update` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI)
@@ -159,12 +163,6 @@ Deze zijn ook interesante commando's betreft gebruiker administratie.
 `sudo openwebrx admin listusers`                     List enabled users
 
 `sudo openwebrx admin hasuser`                       Test if a user exists
-
-### Installing digital modes ###
-
-Nu we toch op het OS zijn ingelogd gaan we nog wat extra digitale decoders installeren. (niet verplicht)
-
-`sudo install-softmbe.sh`
 
 ---
 
