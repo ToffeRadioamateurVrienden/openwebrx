@@ -5,142 +5,142 @@
     "modulation": "nfm"
   },
   {
-        "name" : "CB1",
+        "name" : "1",
         "frequency" : 26965000,
         "modulation" : "nfm"
    },
    {
-       "name" : "CB2",
+       "name" : "2",
        "frequency" : 26975000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB3",
+       "name" : "3",
        "frequency" : 26985000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB4",
+       "name" : "4",
        "frequency" : 27005000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB5",
+       "name" : "5",
        "frequency" : 27015000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB6",
+       "name" : "6",
        "frequency" : 27025000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB7",
+       "name" : "7",
        "frequency" : 27035000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB8",
+       "name" : "8",
        "frequency" : 27055000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB9",
+       "name" : "9",
        "frequency" : 27065000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB10",
+       "name" : "10",
        "frequency" : 27075000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB11",
+       "name" : "11",
        "frequency" : 27085000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB12",
+       "name" : "12",
        "frequency" : 27105000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB13",
+       "name" : "13",
        "frequency" : 27115000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB14",
+       "name" : "14",
        "frequency" : 27125000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB15",
+       "name" : "15",
        "frequency" : 27135000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB16",
+       "name" : "16",
        "frequency" : 27155000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB17",
+       "name" : "17",
        "frequency" : 27165000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB18",
+       "name" : "18",
        "frequency" : 27175000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB19",
+       "name" : "19",
        "frequency" : 27185000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB20",
+       "name" : "20",
        "frequency" : 27205000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB21",
+       "name" : "21",
        "frequency" : 27215000,
        "modulation" : "nfm"
    },
    {
-      "name" : "CB22",
+      "name" : "22",
        "frequency" : 27225000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB23",
+       "name" : "23",
        "frequency" : 27255000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB24",
+       "name" : "24",
        "frequency" : 27235000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB25",
+       "name" : "25",
        "frequency" : 27245000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB26",
+       "name" : "26",
        "frequency" : 27265000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB27",
+       "name" : "27",
        "frequency" : 27275000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB28",
+       "name" : "28",
        "frequency" : 27285000,
        "modulation" : "nfm"
    },
@@ -150,42 +150,42 @@
        "modulation" : "nfm"
    },
    {
-       "name" : "CB30",
+       "name" : "30",
        "frequency" : 27305000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB31",
+       "name" : "31",
        "frequency" : 27315000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB32",
+       "name" : "32",
        "frequency" : 27325000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB33",
+       "name" : "33",
        "frequency" : 27335000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB34",
+       "name" : "34",
        "frequency" : 27345000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB35",
+       "name" : "35",
        "frequency" : 27355000,
        "modulation" : "nfm"
    },
    {
-       "name" : "CB36",
+       "name" : "36",
        "frequency" : 27365000,
        "modulation" : "lsb"
    },
    {
-       "name" : "CB37",
+       "name" : "37",
        "frequency" : 27375000,
        "modulation" : "lsb"
    },
@@ -195,12 +195,12 @@
        "modulation" : "lsb"
    },
    {
-       "name" : "CB39",
+       "name" : "39",
        "frequency" : 27395000,
        "modulation" : "lsb"
    },
    {
-       "name" : "CB40",
+       "name" : "40",
        "frequency" : 27405000,
        "modulation" : "lsb"
    },
