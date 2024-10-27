@@ -132,21 +132,17 @@ De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand comman
 
 `sudo install-softmbe.sh`
 
-Nu gaan we herstarten zodat alle updates actief worden.
-
-`sudo reboot`
-
-<img src="assets/images/ssh_1.png" width="500">
-
-
-Log opnieuw in op de RPI om een OpenWebRx admin web gebruiker en wachtwoord instellen.
+Nu gaan we een adminin account maken om via de web interface de SDR te kunnen instellen en of aanpassen.
 
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
 `sudo openwebrx admin adduser admin` als demo ook paswoord admin
 
-
 <img src="assets/images/put_3.png" width="500">
+
+Nu gaan we herstarten zodat alle updates actief worden.
+
+`sudo reboot`
 
 Deze zijn ook interesante commando's betreft gebruiker administratie.
 
@@ -165,8 +161,8 @@ Deze zijn ook interesante commando's betreft gebruiker administratie.
 `sudo openwebrx admin hasuser`                       Test if a user exists
 
 ---
-
 ### Configureren van de WebSdr ###
+---
 
 **Settings ==> General Settings**
 
