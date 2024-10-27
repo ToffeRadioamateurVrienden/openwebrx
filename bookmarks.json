@@ -464,56 +464,56 @@
         "frequency" : 157150000,
         "modulation" : "nfm"
     },
-{
-    "name" : "24",
-    "frequency" : 157200000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "25",
-    "frequency" : 157250000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "26",
-    "frequency" : 157325000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "27",
-    "frequency" : 157350000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "28",
-    "frequency" : 157400000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "31",
-    "frequency" : 157550000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "60",
-    "frequency" : 156025000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "61",
-    "frequency" : 156075000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "62",
-    "frequency" : 156125000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "63",
-    "frequency" : 156175000,
-    "modulation" : "nfm"
-},
+    {
+ 	"name" : "24",
+        "frequency" : 157200000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "25",
+        "frequency" : 157250000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "26",
+        "frequency" : 157325000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "27",
+        "frequency" : 157350000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "28",
+        "frequency" : 157400000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "31",
+        "frequency" : 157550000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "60",
+        "frequency" : 156025000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "61",
+        "frequency" : 156075000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "62",
+        "frequency" : 156125000,
+        "modulation" : "nfm"
+   },
+   {
+        "name" : "63",
+        "frequency" : 156175000,
+        "modulation" : "nfm"
+   },
 {
     "name" : "64",
     "frequency" : 156225000,
