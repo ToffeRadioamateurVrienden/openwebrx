@@ -565,78 +565,78 @@
       "modulation" : "nfm"
    },
    {
-    "name" : "74",
-    "frequency" : 156725000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "75",
-    "frequency" : 156775000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "76",
-    "frequency" : 156825000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "77",
-    "frequency" : 156875000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "78",
-    "frequency" : 156925000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "79",
-    "frequency" : 156975000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "80",
-    "frequency" : 157025000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "81",
-    "frequency" : 157075000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "82",
-    "frequency" : 157125000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "83",
-    "frequency" : 157175000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "84",
-    "frequency" : 157225000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "85",
-    "frequency" : 157275000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "86",
-    "frequency" : 157325000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "87",
-    "frequency" : 157375000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "88",
-    "frequency" : 157425000,
-    "modulation" : "nfm"
-}
+      "name" : "74",
+      "frequency" : 156725000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "75",
+      "frequency" : 156775000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "76",
+      "frequency" : 156825000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "77",
+      "frequency" : 156875000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "78",
+      "frequency" : 156925000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "79",
+      "frequency" : 156975000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "80",
+      "frequency" : 157025000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "81",
+      "frequency" : 157075000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "82",
+      "frequency" : 157125000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "83",
+      "frequency" : 157175000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "84",
+      "frequency" : 157225000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "85",
+      "frequency" : 157275000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "86",
+      "frequency" : 157325000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "87",
+      "frequency" : 157375000,
+      "modulation" : "nfm"
+  },
+  {
+      "name" : "88",
+      "frequency" : 157425000,
+      "modulation" : "nfm"
+  }
 ]
