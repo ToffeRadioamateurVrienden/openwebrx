@@ -241,7 +241,9 @@ Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
 Eerst maken we het bestand compleet leeg zet cursor bovenaan (CTRL+K)
 
-we kopieren en plakken de inhoud van Plugins.json via het klembord (conf_files/Plugins.json)
+ga naar Plugins.json en bovenaan kies je kopier RAW
+
+ga terug naar putty en via een rechts muis klik plak je de configuratie in het leeggemaakte bestand.
 
 CTRL+X ==> save modified buffer Yes
 
