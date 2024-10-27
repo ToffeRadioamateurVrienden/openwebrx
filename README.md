@@ -1,7 +1,7 @@
 ### OpenwebRX  Installatie & Configuratie door ON3PDY. ###
 ---
 ## Benodigdheden ##
-<img src="assets/images/rpi_board.jpg" width="300">      <img src="assets/images/pi5.png" width="300">
+<img src="assets/images/rpi_board.jpg" height="300">      <img src="assets/images/pi5.png" height="300">
 
 [**Raspberry Pi**](https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-5-4gb-11579?_gl=1*lkf79s*_up*MQ..&gclid=CjwKCAjw6c63BhAiEiwAF0EH1Hk4vvkVqG9C-TbIWwtMIr4HgenyoZ5aiTEVGVtE6QI5oQILqpdzXhoClmwQAvD_BwE)
 Dit is een kleine singleboardcomputer met een ARM-processor.
@@ -123,21 +123,24 @@ De allereerste keer de PC een verbinding maakt krijg je dit scherm te zien. klik
 
 <img src="assets/images/put_2.png" width="500">
 
-Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit lang duren, geduld ...)
+Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit lang duren, geduld ...  +- 8 min)
 
 `sudo apt-get update`
 
 `sudo apt-get upgrade -y`
 
-`sudo reboot`
+`sudo rpi-update` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI) 
 
-De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen.
+De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen. (kan  lang duren, geduld ...  +- 8 min)
 
 `sudo install-softmbe.sh`
 
+Nu gaan we herstarten zodat alle updates actief worden.
+
+`sudo reboot`
+
 <img src="assets/images/ssh_1.png" width="500">
 
-`sudo rpi-update` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI)
 
 Log opnieuw in op de RPI om een OpenWebRx admin web gebruiker en wachtwoord instellen.
 
