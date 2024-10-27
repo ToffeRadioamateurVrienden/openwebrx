@@ -241,7 +241,7 @@ Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
 
 Eerst maken we het bestand compleet leeg zet cursor bovenaan (CTRL+K)
 
-ga naar Plugins.json en bovenaan kies je kopier RAW
+ga naar Plugins.json en bovenaan kies je **kopie RAW file**
 
 ga terug naar putty en via een rechts muis klik plak je de configuratie in het leeggemaakte bestand.
 
@@ -337,17 +337,13 @@ Bookmarks aanpassen
 
 `cd /etc/openwebrx/bookmarks.d/`
 
-`ls`
-
-`sudo nano cb.json`
-
-
-
 `sudo nano /var/lib/openwebrx/bookmarks.json`   (bevat de lokale bladwijzers die zelf zijn toegevoegd)
 
-/etc/openwebrx/bookmarks.json   holds the additional bookmarks
+ga naar bookmarks.json en bovenaan kies je **kopie RAW file**
 
+ga terug naar putty en via een rechts muis klik plak je de configuratie in het leeggemaakte bestand.
 
+CTRL+X ==> save modified buffer Yes
 
 
 Herstart openWebRX via:
@@ -358,10 +354,6 @@ Herstart openWebRX via:
 
 ---
 
-
-
-
----
 **SDR op het internet**
 
 Maak een gratis account aan op [Cloudflare](https://dash.cloudflare.com)
