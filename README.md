@@ -128,7 +128,7 @@ Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit 
 
 `sudo rpi-update` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI) 
 
-De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen. (kan  lang duren, geduld ...  +- 8 min)
+De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen. (kan  lang duren, geduld ...  +- 12 min)
 
 `sudo install-softmbe.sh`
 
