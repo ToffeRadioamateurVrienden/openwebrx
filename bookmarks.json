@@ -213,258 +213,258 @@
         "name" : "PMR1",
         "frequency" : 446006250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR2",
         "frequency" : 446018750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR3",
         "frequency" : 446031250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR4",
         "frequency" : 446043750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR5",
         "frequency" : 446056250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR6",
         "frequency" : 446068750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR7",
         "frequency" : 446081250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR8",
         "frequency" : 446093750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR9",
         "frequency" : 446106250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR10",
         "frequency" : 446118750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR11",
         "frequency" : 446131250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR12",
         "frequency" : 446143750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR13",
         "frequency" : 446156250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR14",
         "frequency" : 446168750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR15",
         "frequency" : 446181250,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PMR16",
         "frequency" : 446193750,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "PAGe BE",
         "frequency" : 169625000,
         "modulation" : "page"
-    },
-    {
+   },
+   {
         "name" : "PAGe NL",
         "frequency" : 169650000,
         "modulation" : "page"
-    },
-    {
+   },
+   {
         "name" : "De Lijn",
         "frequency" : 424827500,
         "modulation" : "nfm"
-    },
+   },
    {
         "name" : "WW K1",
         "frequency" : 164631250,
         "modulation" : "nfm"
-    },
-  	{
+   },
+   {
         "name" : "WW K2",
         "frequency" : 160106250,
         "modulation" : "nfm"
-    },
-  	{
+  },
+  {
         "name" : "WW K3",
         "frequency" : 164510000,
         "modulation" : "nfm"
-    },
-  	{
+  },
+  {
         "name" : "WW K4",
         "frequency" : 162890000,
         "modulation" : "nfm"
-    },
-  	{
+  },
+  {
         "name" : "VRT K1",
         "frequency" : 164450000,
         "modulation" : "nfm"
-    },
-  	{
+  },
+  {
         "name" : "VRT K2 Tone 67.0 Hz",
         "frequency" : 160550000,
         "modulation" : "nfm"
-    },
-  	{
+  },
+  {
         "name" : "VRT K3",
         "frequency" : 426556200,
         "modulation" : "nfm"
-    },
-  	{
+  },
+  {
         "name" : "VRT K4",
         "frequency" : 426893700,
         "modulation" : "nfm"
-    },
-    {
-	      "name" : "00",
+  },
+  {
+        "name" : "00",
         "frequency" : 156000000,
         "modulation" : "nfm"
-    },
-    {
-  	    "name" : "01",
+  },
+  {
+        "name" : "01",
         "frequency" : 156050000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "02",
         "frequency" : 156100000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "03",
         "frequency" : 156150000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "04",
         "frequency" : 156200000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "05",
         "frequency" : 156250000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "06",
         "frequency" : 156300000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "07",
         "frequency" : 156350000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "08",
         "frequency" : 156400000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "09",
         "frequency" : 156450000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "10",
         "frequency" : 156500000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "11",
         "frequency" : 156550000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "12",
         "frequency" : 156600000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "13",
         "frequency" : 156650000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "14",
         "frequency" : 156700000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "15",
         "frequency" : 156750000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "16",
         "frequency" : 156800000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "17",
         "frequency" : 156850000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "18",
         "frequency" : 156900000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "19",
         "frequency" : 156950000,
-      "modulation" : "nfm"
-    },
-    {
+        "modulation" : "nfm"
+   },
+   {
         "name" : "20",
         "frequency" : 157000000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "21",
         "frequency" : 157050000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "22",
         "frequency" : 157100000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
         "name" : "23",
         "frequency" : 157150000,
         "modulation" : "nfm"
-    },
-    {
+   },
+   {
  	"name" : "24",
         "frequency" : 157200000,
         "modulation" : "nfm"
@@ -514,57 +514,57 @@
         "frequency" : 156175000,
         "modulation" : "nfm"
    },
-{
-    "name" : "64",
-    "frequency" : 156225000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "65",
-    "frequency" : 156275000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "66",
-    "frequency" : 156325000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "67",
-    "frequency" : 156375000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "68",
-    "frequency" : 156425000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "69",
-    "frequency" : 156475000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "70",
-    "frequency" : 156525000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "71",
-    "frequency" : 156575000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "72",
-    "frequency" : 156625000,
-    "modulation" : "nfm"
-},
-{
-    "name" : "73",
-    "frequency" : 156675000,
-    "modulation" : "nfm"
-},
-{
+   {
+   	"name" : "64",
+        "frequency" : 156225000,
+        "modulation" : "nfm"
+   },
+   {
+       "name" : "65",
+       "frequency" : 156275000,
+       "modulation" : "nfm"
+   },
+   {
+       "name" : "66",
+       "frequency" : 156325000,
+       "modulation" : "nfm"
+   },
+   {
+       "name" : "67",
+       "frequency" : 156375000,
+       "modulation" : "nfm"
+   },
+   {
+      "name" : "68",
+      "frequency" : 156425000,
+      "modulation" : "nfm"
+   },
+   {
+       "name" : "69",
+       "frequency" : 156475000,
+       "modulation" : "nfm"
+   },
+   {
+      "name" : "70",
+      "frequency" : 156525000,
+      "modulation" : "nfm"
+   },
+   {
+      "name" : "71",
+      "frequency" : 156575000,
+      "modulation" : "nfm"
+   },
+   {
+      "name" : "72",
+      "frequency" : 156625000,
+      "modulation" : "nfm"
+   },
+   {
+      "name" : "73",
+      "frequency" : 156675000,
+      "modulation" : "nfm"
+   },
+   {
     "name" : "74",
     "frequency" : 156725000,
     "modulation" : "nfm"
