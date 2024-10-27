@@ -1,5 +1,5 @@
 [
-    {
+  {
     "name": "TRV",
     "frequency": 144900000,
     "modulation": "nfm"
@@ -309,4 +309,4 @@
         "frequency" : 424827500,
         "modulation" : "nfm"
     }
- ]
+]
