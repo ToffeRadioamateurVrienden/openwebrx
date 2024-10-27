@@ -1,4 +1,225 @@
- {
+[
+    {
+    "name": "TRV",
+    "frequency": 144900000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "2_m_example",
+    "frequency": 145275000,
+    "modulation": "nfm"
+  },
+  {
+    "name": "70_cm_example",
+    "frequency": 439000000,
+    "modulation": "nfm"
+  },
+  {
+        "name" : "CB1",
+        "frequency" : 26965000,
+        "modulation" : "fm"
+   },
+   {
+       "name" : "CB2",
+       "frequency" : 26975000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB3",
+       "frequency" : 26985000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB4",
+       "frequency" : 27005000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB5",
+       "frequency" : 27015000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB6",
+       "frequency" : 27025000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB7",
+       "frequency" : 27035000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB8",
+       "frequency" : 27055000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB9",
+       "frequency" : 27065000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB10",
+       "frequency" : 27075000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB11",
+       "frequency" : 27085000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB12",
+       "frequency" : 27105000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB13",
+       "frequency" : 27115000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB14",
+       "frequency" : 27125000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB15",
+       "frequency" : 27135000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB16",
+       "frequency" : 27155000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB17",
+       "frequency" : 27165000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB18",
+       "frequency" : 27175000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB19",
+       "frequency" : 27185000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB20",
+       "frequency" : 27205000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB21",
+       "frequency" : 27215000,
+       "modulation" : "fm"
+   },
+   {
+      "name" : "CB22",
+       "frequency" : 27225000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB23",
+       "frequency" : 27255000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB24",
+       "frequency" : 27235000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB25",
+       "frequency" : 27245000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB26",
+       "frequency" : 27265000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB27",
+       "frequency" : 27275000,
+       "modulation" : "am"
+   },
+   {
+       "name" : "CB28",
+       "frequency" : 27285000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB29",
+       "frequency" : 27295000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB30",
+       "frequency" : 27305000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB31",
+       "frequency" : 27315000,
+       "modulation" : "am"
+   },
+   {
+       "name" : "CB32",
+       "frequency" : 27325000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB33",
+       "frequency" : 27335000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB34",
+       "frequency" : 27345000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB35",
+       "frequency" : 27355000,
+       "modulation" : "fm"
+   },
+   {
+       "name" : "CB36",
+       "frequency" : 27365000,
+       "modulation" : "lsb"
+   },
+   {
+       "name" : "CB37",
+       "frequency" : 27375000,
+       "modulation" : "lsb"
+   },
+   {
+       "name" : "CB38",
+       "frequency" : 27385000,
+       "modulation" : "lsb"
+   },
+   {
+       "name" : "CB39",
+       "frequency" : 27395000,
+       "modulation" : "lsb"
+   },
+   {
+       "name" : "CB40",
+       "frequency" : 27405000,
+       "modulation" : "lsb"
+   },
+   {
+       "name" : "555",
+       "frequency" : 27555000,
+       "modulation" : "lsb"
+   },
+   {
         "name" : "PMR1",
         "frequency" : 446006250,
         "modulation" : "nfm"
@@ -77,4 +298,15 @@
         "name" : "PMR16",
         "frequency" : 446193750,
         "modulation" : "nfm"
+    },
+    {
+        "name" : "PAGe BE",
+        "frequency" : 169626000,
+        "modulation" : "page"
+    },
+    {
+        "name" : "De Lijn",
+        "frequency" : 424827500,
+        "modulation" : "nfm"
     }
+ ]
