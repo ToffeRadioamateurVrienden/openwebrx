@@ -291,12 +291,57 @@
     },
     {
         "name" : "PAGe BE",
-        "frequency" : 169626000,
+        "frequency" : 169625000,
+        "modulation" : "page"
+    },
+    {
+        "name" : "PAGe NL",
+        "frequency" : 169650000,
         "modulation" : "page"
     },
     {
         "name" : "De Lijn",
         "frequency" : 424827500,
+        "modulation" : "nfm"
+    },
+   {
+        "name" : "WW K1",
+        "frequency" : 164631250,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "WW K2",
+        "frequency" : 160106250,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "WW K3",
+        "frequency" : 164510000,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "WW K4",
+        "frequency" : 162890000,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "VRT K1",
+        "frequency" : 164450000,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "VRT K2 Tone 67.0 Hz",
+        "frequency" : 160550000,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "VRT K3",
+        "frequency" : 426556200,
+        "modulation" : "nfm"
+    },
+  	{
+        "name" : "VRT K4",
+        "frequency" : 426893700,
         "modulation" : "nfm"
     }
 ]
