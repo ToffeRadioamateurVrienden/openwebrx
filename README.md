@@ -182,7 +182,7 @@ Receiver coordinates 50,8821422       4,83844307581241
 
 Photo title = Web SDR van de Toffe Radio Amateur Vrienden
 
-Photo description = <IFRAME style=float:right marginWidth=0 marginHeight=0 src=https://www.dxfuncluster.com/widgets/cluster25.php frameBorder=1 scrolling=yes width=620 height=200></IFRAME>
+Photo description = kopier hier de inhoud van widgets.html (niet verplicht, geeft cluster en solar info in de header)
 
 Receiver Avatar + Receiver Panorama : upload bestanden
 
