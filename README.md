@@ -194,7 +194,7 @@ Waterfall color theme = Theme By Teejeez....
 
 **Settings ==> SDR device settings**
 
-<img src="assets/images/ds_1.png" width="800">
+<img src="assets/images/dv_1.png" width="800">
 Schakel de Airspy HF+ en SDRPlay uit (tenzij je dergelijke SDR hebt)
 
 **Settings ==> SDR device settings ==> RTL-SDR**
