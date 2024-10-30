@@ -208,23 +208,24 @@ om de ***Device serial number*** te vinden kijk je onderaan in het scherm ***Rec
 
 Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 
-<img src="assets/images/PS_2m.png" width="800">
-<img src="assets/images/PS_4m.png" width="800">
-<img src="assets/images/PS_6m.png" width="800">
-<img src="assets/images/PS_10m.png" width="800">
-<img src="assets/images/PS_11m.png" width="800">
-<img src="assets/images/PS_12m.png" width="800">
-<img src="assets/images/PS_15m.png" width="800">
-<img src="assets/images/PS_17m.png" width="800">
-<img src="assets/images/PS_20m.png" width="800">
-<img src="assets/images/PS_70cm_1.png" width="800">
-<img src="assets/images/PS_70cm_2.png" width="800">
-<img src="assets/images/PS_70cm_3.png" width="800">
-<img src="assets/images/PS_70cm_4.png" width="800">
-<img src="assets/images/PS_70cm_5.png" width="800">
-<img src="assets/images/PS_adsb.png" width="800">
-<img src="assets/images/PS_air.png" width="800">
-<img src="assets/images/PS_ships.png" width="800">
+<img src="assets/images/ps_20m.png" width="800">
+<img src="assets/images/ps_17m.png" width="800">
+<img src="assets/images/ps_15m.png" width="800">
+<img src="assets/images/ps_12m.png" width="800">
+<img src="assets/images/ps_11m.png" width="800">
+<img src="assets/images/ps_10m.png" width="800">
+<img src="assets/images/ps_6m.png" width="800">
+<img src="assets/images/ps_4m.png" width="800">
+<img src="assets/images/ps_2m.png" width="800">
+<img src="assets/images/ps_70cm_1.png" width="800">
+<img src="assets/images/ps_70cm_2.png" width="800">
+<img src="assets/images/ps_70cm_3.png" width="800">
+<img src="assets/images/ps_70cm_4.png" width="800">
+<img src="assets/images/ps_70cm_5.png" width="800">
+<img src="assets/images/ps_adsb.png" width="800">
+<img src="assets/images/ps_sat.png" width="800">
+<img src="assets/images/ps_pmr.png" width="800">
+<img src="assets/images/ps_aiq.png" width="800">
 
 ---
 
