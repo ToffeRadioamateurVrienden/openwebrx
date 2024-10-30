@@ -250,6 +250,14 @@ CTRL+X ==> save modified buffer Yes
 sudo systemctl restart varnish nginx
 
 ---
+***CSS tweaks***
+
+sudo find / -name openwebrx.css
+
+sudo nano /usr/lib/python3/dist-packages/htdocs/css/openwebrx.css
+in de nano editor doe CTRL + W en zoek naar  "openwebrx-panel-receiver" en verander de width naar 30vw
+
+--- 
 
 Aanbevolen is de RPI een vast IP adres geven. (niet verplicht)
 
