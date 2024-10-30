@@ -194,12 +194,17 @@ Waterfall color theme = Theme By Teejeez....
 
 **Settings ==> SDR device settings**
 
-<img src="assets/images/sdr_device_settings.png" width="800">
+<img src="assets/images/ds_1.png" width="800">
 Schakel de Airspy HF+ en SDRPlay uit (tenzij je dergelijke SDR hebt)
 
 **Settings ==> SDR device settings ==> RTL-SDR**
 
-<img src="assets/images/RTL_sdr_settings.png" width="800">
+<img src="assets/images/ds_1.png" width="800">
+
+indien je meerdere SDR's wil gebruiken moet in bovenstaande nog een Device identifier toevoegen.
+
+om de ***Device serial number*** te vinden kijk je onderaan in het scherm ***Recent device log messages**
+<img src="assets/images/ds_2.png" width="800">
 
 Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 
