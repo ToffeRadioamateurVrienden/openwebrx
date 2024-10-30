@@ -223,9 +223,9 @@ Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 <img src="assets/images/ps_70cm_4.png" width="800">
 <img src="assets/images/ps_70cm_5.png" width="800">
 <img src="assets/images/ps_adsb.png" width="800">
-<img src="assets/images/ps_sat.png" width="800">
 <img src="assets/images/ps_pmr.png" width="800">
-<img src="assets/images/ps_aiq.png" width="800">
+<img src="assets/images/ps_sat.png" width="800">
+<img src="assets/images/ps_ais.png" width="800">
 
 ---
 
