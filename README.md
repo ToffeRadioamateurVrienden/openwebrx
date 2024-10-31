@@ -268,15 +268,18 @@ Opniew gebruiken we hiervoor de opdrachtprompt (CMD)
 Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier de **Default Gateway**
 ![image](assets/images/cmd_2.png)
 
-nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. Hiervoor heeft de RPI een ingebouwde editor. **NANO**
+nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. 
 
-`sudo nano /etc/dhcpcd.conf`   `sudo nmtui`
+`sudo nmtui`
 
-zoek naar **Example static IP configuration van interface eth0** verwijder de # vooraan en pas het voorbeeld aan.
+<img src="assets/images/eth_1.png" width="400">
+<img src="assets/images/eth_2.png" width="400">
+<img src="assets/images/eth_3.png" width="400">
+<img src="assets/images/eth_4.png" width="400">
+<img src="assets/images/eth_5.png" width="400">
 
-![image](assets/images/ip_2.png)
 
-TIP: gebruik als static ip_address dat wat via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
+TIP: gebruik als static ip_address dat wat momenteel via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
 
 static routers en static domain_name_servers daar gebruik je de **Default Gateway** die je hebt verkregen via **ipconfig**
 
@@ -284,7 +287,7 @@ static routers en static domain_name_servers daar gebruik je de **Default Gatewa
 - static routers=192.168.1.1
 - static domain_name_servers=192.168.1.1
 
-Sluit af met de toetsencombinatie **CTRL+X** en bevestig met **Y**
+
 
 ---
 
