@@ -365,9 +365,10 @@ Ik verwijder alleen de CB omdat deze op AM staat.
 `sudo systemctl restart openwebrx`
 
 *** Eigen Bookmarks plaatsen ***
+
 `cd /etc/openwebrx/bookmarks.d/`
 
-`sudo nano /var/lib/openwebrx/bookmarks.json`   (bevat de lokale bladwijzers die zelf zijn toegevoegd)
+`sudo nano /var/lib/openwebrx/bookmarks.json`   (deze file bevat de lokale bladwijzers die je zelf toegevoegd)
 
 ga naar bookmarks.json en bovenaan kies je **kopie RAW file**
 
