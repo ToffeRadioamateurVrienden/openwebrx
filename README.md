@@ -273,8 +273,11 @@ nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen.
 `sudo nmtui`
 
 <img src="assets/images/eth_1.png" width="400">
+Met de pijltjes omhoog/omlaag activeer(blauw) ***de Wired connection 1*** , met de tabtoets zet je (rood)<Edit..> actief en via de Enter toets ga je naar volgende scherm.
 <img src="assets/images/eth_2.png" width="400">
+Zet IPv4 van Automatic naar Manual
 <img src="assets/images/eth_3.png" width="400">
+Zet achteraan <show> actief en enter.
 <img src="assets/images/eth_4.png" width="400">
 <img src="assets/images/eth_5.png" width="400">
 
@@ -316,21 +319,6 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 <img src="assets/images/error.png" width="300">
 
-
----
-
-***Verander de Raspberry Pi Hostname***
-
-`sudo raspi-config`
-
-Selecteer Hostnaam en druk op Enter of selecteer Ok als u een waarschuwing krijgt waarin staat dat u geen speciale tekens mag gebruiken in de hostnaam van de Raspberry Pi.
-
-<img src="assets/images/raspi_config_1.png" width="600">
-<img src="assets/images/raspi_config_2.png" width="600">
-<img src="assets/images/raspi_config_3.png" width="600">
-<img src="assets/images/raspi_config_4.png" width="600">
-<img src="assets/images/raspi_config_5.png" width="600">
-<img src="assets/images/raspi_config_6.png" width="600">
 
 ---
 
