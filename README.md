@@ -273,15 +273,25 @@ nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen.
 `sudo nmtui`
 
 Met de pijltjes omhoog/omlaag en de met de tabtoets navigeer je door deze dialogen.
+
 <img src="assets/images/eth_1.png" width="400">
+
 voor het aanpassen van het IP adress gebruik je ***Edit a connection***
+
 <img src="assets/images/eth_2.png" width="400">
+
 Activeer (blauw) ***de Wired connection 1*** , zet je (rood) ***Edit..*** actief en via de Enter toets ga je naar volgende scherm.
+
 <img src="assets/images/eth_3.png" width="400">
+
 Zet IPv4 van Automatic naar Manual
+
 <img src="assets/images/eth_4.png" width="400">
+
 Zet achteraan ***show*** actief en enter.
+
 <img src="assets/images/eth_5.png" width="400">
+
 TIP: gebruik als ***Addresses*** dat wat momenteel via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
 
 Opgelet /24 moet achteraan het gewenste IP adres staan!
