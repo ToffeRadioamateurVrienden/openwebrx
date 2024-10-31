@@ -348,8 +348,23 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 ---
 
-Bookmarks aanpassen 
+***Bookmarks aanpassen of toevoegen***
 
+OpenWebRX+ wordt geleverd met vooraf gedefinieerde bladwijzers voor enkele veelvoorkomende frequenties, zoals weersinformatie, CB-kanalen, enzovoort. Als u deze bladwijzers niet wilt zien, verwijdert u ze en start u OpenWebRX opnieuw op
+
+`sudo rm -f /etc/openwebrx/bookmarks.d/*`
+
+`sudo systemctl restart openwebrx`
+
+Ik verwijder alleen de CB omdat deze op AM staat.
+
+`cd /etc/openwebrx/bookmarks.d/`
+
+`sudo rm cb.json`
+
+`sudo systemctl restart openwebrx`
+
+*** Eigen Bookmarks plaatsen ***
 `cd /etc/openwebrx/bookmarks.d/`
 
 `sudo nano /var/lib/openwebrx/bookmarks.json`   (bevat de lokale bladwijzers die zelf zijn toegevoegd)
