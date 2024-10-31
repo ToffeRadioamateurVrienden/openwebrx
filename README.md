@@ -272,25 +272,33 @@ nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen.
 
 `sudo nmtui`
 
+Met de pijltjes omhoog/omlaag en de met de tabtoets navigeer je door deze dialogen.
 <img src="assets/images/eth_1.png" width="400">
-Met de pijltjes omhoog/omlaag activeer(blauw) ***de Wired connection 1*** , met de tabtoets zet je (rood)<Edit..> actief en via de Enter toets ga je naar volgende scherm.
+voor het aanpassen van het IP adress gebruik je ***Edit a connection***
 <img src="assets/images/eth_2.png" width="400">
-Zet IPv4 van Automatic naar Manual
+Activeer (blauw) ***de Wired connection 1*** , zet je (rood) ***Edit..*** actief en via de Enter toets ga je naar volgende scherm.
 <img src="assets/images/eth_3.png" width="400">
-Zet achteraan <show> actief en enter.
+Zet IPv4 van Automatic naar Manual
 <img src="assets/images/eth_4.png" width="400">
+Zet achteraan ***show*** actief en enter.
 <img src="assets/images/eth_5.png" width="400">
+TIP: gebruik als ***Addresses*** dat wat momenteel via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
 
+Opgelet /24 moet achteraan het gewenste IP adres staan!
 
-TIP: gebruik als static ip_address dat wat momenteel via DHCP is toegekend aan de Raspberry Pi. (zo ben je zeker van geen conflicten!).
+***Gateway** daar gebruik je de **Default Gateway** die je hebt verkregen via **ipconfig**
 
-static routers en static domain_name_servers daar gebruik je de **Default Gateway** die je hebt verkregen via **ipconfig**
+***DNS servers*** hier gebruik ik 1.1.1.1(google) of 8.8.8.8(cloudflare) voor.
 
-- static ip_address=192.168.1.47/24 (opgelet /24 moet achteraan het gewenste IP adres staan!)
-- static routers=192.168.1.1
-- static domain_name_servers=192.168.1.1
+Via de Tabtoets zet je ***OK** actief en druk je op enter.
 
+Je komt nu terug in het vorige dialoog activeer (Tabtoets) ***Back** en druk op enter.
 
+Je komt nu terug in het vorige dialoog activeer (met de pijltjes) ***Quit** en druk op enter.
+
+`sudo reboot`  zal de wijzigingen activeren.
+
+Tip: via dit kan ook indien gewenst de hostnaam worden aangepast.
 
 ---
 
