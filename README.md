@@ -270,7 +270,7 @@ Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier de **Defaul
 
 nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. Hiervoor heeft de RPI een ingebouwde editor. **NANO**
 
-`sudo nano /etc/dhcpcd.conf`
+`sudo nano /etc/dhcpcd.conf`   `sudo nmtui`
 
 zoek naar **Example static IP configuration van interface eth0** verwijder de # vooraan en pas het voorbeeld aan.
 
