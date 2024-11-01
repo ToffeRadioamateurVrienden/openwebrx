@@ -3,3 +3,17 @@ sudo wget https://www.dwservice.net/download/dwagent_x86.sh
 chmod +x dwagent_x86.sh
 sudo ./dwagent_x86.sh
 
+
+sudo apt-get update
+sudo apt-get install git
+git clone https://github.com/F5OEO/rpitx
+cd rpitx
+./install.sh
+
+Plug a wire on GPIO 4, means Pin 7
+
+easytest is the easiest way to start and see some demonstration. 
+
+cd rpitx
+./easytest.sh
+
