@@ -1,6 +1,5 @@
 cd /usr/src
-wget https://www.dwservice.net/download/dwagent_x86.sh
+sudo wget https://www.dwservice.net/download/dwagent_x86.sh
 chmod +x dwagent_x86.sh
-./dwagent_x86.sh
-Take all the default options and, when it asks if you want to create and agent or enter a code, choose enter a code
-Enter the nine-digit code you were given earlier.  You can include or omit the dashes
+sudo ./dwagent_x86.sh
+
