@@ -29,6 +29,8 @@ The script should finish the installation and start the DWAgent. Close the Termi
 
 
 
+/etc/gdm3/custom.conf
+
 
 
 
