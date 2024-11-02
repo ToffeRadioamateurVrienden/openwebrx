@@ -110,7 +110,9 @@ IP adres: hier moeten we eerst opzoek gaan naar wat er via DHCP is toegekend aan
 
 Via de opdrachtpromt (CMD) kunnen we dit vinden: ping de hostname die je hebt opgegegeven in 'Raspberry Pi Imager'
 
-`ping demoSDR`
+```
+ping demoSDR
+```
 
 ![image](assets/images/ping.png)
 
@@ -126,25 +128,36 @@ Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit 
 sudo apt-get update
 ```
 
-`sudo apt-get upgrade -y`
+```
+sudo apt-get upgrade -y```
 
-`sudo rpi-update` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI) 
+
+```
+sudo rpi-update
+``` (**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI) 
 
 De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen. (kan  lang duren, geduld ...  +- 12 min)
 
-`sudo install-softmbe.sh`
+```
+sudo install-softmbe.sh
+```
 
 Nu gaan we een adminin account maken om via de web interface de SDR te kunnen instellen en of aanpassen.
 
 `sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
 
-`sudo openwebrx admin adduser admin` als demo ook paswoord admin
+```
+sudo openwebrx admin adduser admin
+```
+als demo ook paswoord admin
 
 <img src="assets/images/put_3.png" width="500">
 
 Nu gaan we herstarten zodat alle updates actief worden.
 
-`sudo reboot`
+```
+sudo reboot
+```
 
 Deze zijn ook interesante commando's betreft gebruiker administratie.
 
@@ -237,9 +250,15 @@ Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 
 Om een ​​plugin(s) te laden moet je een **init.js** bestand aanmaken in je openwebrx installatie.
 
-Om de juiste map te vinden waar bestand moet staan, gebruik je volgend commando.  `sudo find / -name openwebrx.js`
+Om de juiste map te vinden waar bestand moet staan, gebruik je volgend commando.  
+```
+sudo find / -name openwebrx.js
+```
 
-`cd /usr/lib/python3/dist-packages/htdocs/plugins/receiver`    vervang **openwebrx.js** door **plugins/receiver**
+```
+cd /usr/lib/python3/dist-packages/htdocs/plugins/receiver
+```
+vervang **openwebrx.js** door **plugins/receiver**
 
 Tip: wil je zien wat er in deze map staat gebruik **ls -a**
 
