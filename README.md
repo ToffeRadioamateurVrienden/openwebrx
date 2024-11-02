@@ -283,14 +283,18 @@ Hiervoor doen we eerst wat opzoeken betrefende het netwerk waarmee we verbonden 
 
 Opniew gebruiken we hiervoor de opdrachtprompt (CMD)  
 
-`ipconfig`
+```
+ipconfig
+```
 
 Scrol tot je de gegevens van de *Ethernet adapter* ziet. Noteer hier de **Default Gateway**
 ![image](assets/images/cmd_2.png)
 
 nu zijn we klaar om via **PuTTY** de instelling van de RPI aan te passen. 
 
-`sudo nmtui`
+```
+sudo nmtui
+```
 
 Met de pijltjes omhoog/omlaag en de met de tabtoets navigeer je door deze dialogen.
 
@@ -326,7 +330,10 @@ Je komt nu terug in het vorige dialoog activeer (Tabtoets) ***Back** en druk op 
 
 Je komt nu terug in het vorige dialoog activeer (met de pijltjes) ***Quit** en druk op enter.
 
-`sudo reboot`  zal de wijzigingen activeren.
+```
+sudo reboot
+```
+zal de wijzigingen activeren.
 
 Tip: via dit kan ook indien gewenst de hostnaam worden aangepast.
 
@@ -362,9 +369,13 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 ***User & Paswoord wijzigen***
 
-`sudo adduser newuser_name`
+```
+sudo adduser newuser_name
+```
 
-`sudo usermod newuser_name -a -G openwebrx,adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio`
+```
+sudo usermod newuser_name -a -G openwebrx,adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio
+```
 
 ---
 
@@ -372,23 +383,36 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 OpenWebRX+ wordt geleverd met vooraf gedefinieerde bladwijzers voor enkele veelvoorkomende frequenties, zoals weersinformatie, CB-kanalen, enzovoort. Als u deze bladwijzers niet wilt zien, verwijdert u ze en start u OpenWebRX opnieuw op
 
-`sudo rm -f /etc/openwebrx/bookmarks.d/*`
+```
+sudo rm -f /etc/openwebrx/bookmarks.d/*
+```
 
-`sudo systemctl restart openwebrx`
+```
+sudo systemctl restart openwebrx
+```
 
 Ik verwijder alleen de CB omdat deze op AM staat.
 
-`cd /etc/openwebrx/bookmarks.d/`
+```
+cd /etc/openwebrx/bookmarks.d/
+```
 
-`sudo rm cb.json`
+```
+sudo rm cb.json
+```
 
 `sudo systemctl restart openwebrx`
 
 *** Eigen Bookmarks plaatsen ***
 
-`cd /etc/openwebrx/bookmarks.d/`
+```
+cd /etc/openwebrx/bookmarks.d/
+```
 
-`sudo nano /var/lib/openwebrx/bookmarks.json`   (deze file bevat de lokale bladwijzers die je zelf toegevoegd)
+```
+sudo nano /var/lib/openwebrx/bookmarks.json
+```
+(deze file bevat de lokale bladwijzers die je zelf toegevoegd)
 
 ga naar bookmarks.json en bovenaan kies je **kopie RAW file**
 
@@ -399,9 +423,13 @@ CTRL+X ==> save modified buffer Yes
 
 Herstart openWebRX via:
 
-`sudo systemctl stop openwebrx.service`
+```
+sudo systemctl stop openwebrx.service
+```
 
-`sudo systemctl start openwebrx.service`
+```
+sudo systemctl start openwebrx.service
+```
 
 ---
 
@@ -409,18 +437,21 @@ Herstart openWebRX via:
 
 Maak een gratis account aan op [Cloudflare](https://dash.cloudflare.com)
 
-
-`sudo apt install curl lsb-release`
-
-`curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null`
-
-`echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list`
-
-`sudo apt update`
-
-`sudo apt install cloudflared`
-
-http://sdr.pats.dns-cloud.net/#freq=145725000,mod=nfm,sql=-150
+```
+sudo apt install curl lsb-release
+```
+```
+curl -L https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-archive-keyring.gpg >/dev/null
+```
+```
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-archive-keyring.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/cloudflared.list
+```
+```
+sudo apt update
+```
+```
+sudo apt install cloudflared
+```
 
 ---
 
@@ -428,40 +459,42 @@ http://sdr.pats.dns-cloud.net/#freq=145725000,mod=nfm,sql=-150
 
 armhf architecture (32-bit Raspberry Pi)
 
-`wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm
+```
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm
 sudo mv -f ./cloudflared-linux-arm /usr/local/bin/cloudflared
 sudo chmod +x /usr/local/bin/cloudflared
-cloudflared -v`
+cloudflared -v
+```
 
 arm64 architecture (64-bit Raspberry Pi)
 
-`wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64
+```
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64
 sudo mv -f ./cloudflared-linux-arm64 /usr/local/bin/cloudflared
 sudo chmod +x /usr/local/bin/cloudflared
-cloudflared -v`
+cloudflared -v
+```
 
 
 kies ***If you already have cloudflared installed on your machine:*** en kopier dit naar het bureaublad.
 
-VB: `sudo cloudflared service install eyJhIjoiMDEz....9`
-
-
+VB: ` sudo cloudflared service install eyJhIjoiMDEz....9`
 
 Configuring cloudflared to run on startup
 
 Create a cloudflared user to run the daemon:
 
-
 sudo useradd -s /usr/sbin/nologin -r -M cloudflared
 Proceed to create a configuration file for cloudflared:
-
 
 sudo nano /etc/default/cloudflared
 Edit configuration file by copying the following in to /etc/default/cloudflared. This file contains the command-line options that get passed to cloudflared on startup:
 
 ---
 
-`sudo poweroff`
+```
+sudo poweroff
+```
 
 
 **Interesante links**
