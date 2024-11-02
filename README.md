@@ -122,7 +122,7 @@ De allereerste keer de PC een verbinding maakt krijg je dit scherm te zien. klik
 
 Eerst zorgen we dat het OS volledig up to date is. (de allereerste keer kan dit lang duren, geduld ...  +- 8 min)
 
-`sudo apt-get update`
+```sudo apt-get update```
 
 `sudo apt-get upgrade -y`
 
