@@ -3,6 +3,23 @@ sudo wget https://www.dwservice.net/download/dwagent_x86.sh
 chmod +x dwagent_x86.sh
 sudo ./dwagent_x86.sh
 
+***Remove dwagent if you've already installed it***
+
+ sudo /usr/share/dwagent/native/dwagsvc stop
+ sudo /usr/share/dwagent/native/dwagsvc delete
+ sudo rm -r -f /usr/share/dwagent
+ sudo rm -f /etc/dwagent
+***Install Python2***
+
+sudo apt -y install python2
+Install dwagent
+
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python2.7
+
 
 sudo apt-get update
 sudo apt-get install git
