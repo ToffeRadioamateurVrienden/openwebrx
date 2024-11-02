@@ -37,7 +37,15 @@ The script should finish the installation and start the DWAgent. Close the Termi
 
 
 
+Open Terminal on the Pi, or connect to it using SSH
 
+Run the command: sudo raspi-config
+
+Select Advanced Options, then select Wayland
+
+Select X11 and confirm
+
+Reboot the Pi when prompted
 
 
 cd /usr/src
