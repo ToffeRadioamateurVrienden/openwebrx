@@ -56,3 +56,9 @@ docker run --privileged=true --rm \
     mgomesborges/pishrink \
     pishrink -pZv GramsRpi.img GramsRpiShrinked.img
 
+	
+				cd Downloads
+				chmod +x dwagent.sh
+				sudo ./dwagent.sh
+		
+
