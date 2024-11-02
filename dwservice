@@ -15,6 +15,19 @@ sudo apt -y install python2
 Install dwagent
 
 
+wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
+sudo tar xzf Python-2.7.9.tgz
+cd Python-2.7.9
+sudo ./configure --enable-optimizations
+sudo make altinstall
+then:
+
+python2.7 -V
+~ Python 2.7.9
+sudo ln -sfn '/usr/local/bin/python2.7' '/usr/bin/python2'
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+
+
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
