@@ -2,10 +2,15 @@
 
 Open a terminal and run these commands:
 
+cd /usr/src
 wget -N https://www.dwservice.net/download/dwagent.sh
- cd Downloads
- chmod +x dwagent.sh
- sudo ./dwagent.sh
+#wget https://www.dwservice.net/download/dwagent_x86.sh
+#chmod +x dwagent_x86.sh
+#./dwagent_x86.sh
+
+cd Downloads
+chmod +x dwagent.sh
+sudo ./dwagent.sh
 Select 1. Install when prompted.
 
 ***Remove dwagent***
