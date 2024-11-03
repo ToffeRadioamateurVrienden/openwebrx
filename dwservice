@@ -1,32 +1,12 @@
 
 
-Installing the DWAgent on Raspberry Pi and Linux is a somewhat special case and described here:
-
-Open a browser on the Pi or Linux host on which you want to install the DWAgent.
-
-Go to https://dwservice.net and in the Download box, click "Click here". DO NOT click the Download button - it may download the wrong file!
-
-You should now see the Download screen. Locate the Raspberry ARM or Linux x86 (depending on what kind of computer you have) download on that screen, and click it's DOWNLOAD button.
-
-This will save a file called dwagent.sh in your Downloads folder.
-
 Open a terminal and run these commands:
 
+wget -N https://www.dwservice.net/download/dwagent.sh
  cd Downloads
  chmod +x dwagent.sh
  sudo ./dwagent.sh
 Select 1. Install when prompted.
-
-Accept default for Path.
-
-Select 1. Yes for the "Do you want to install..." question.
-
-Select 1. Entering the installation code.
-
-Enter the install code for the agent you created for this Raspberry Pi in the Create Agents section of this document.
-
-The script should finish the installation and start the DWAgent. Close the Terminal window and close the Chromium browser window.
-
 
 ***Remove dwagent***
 
