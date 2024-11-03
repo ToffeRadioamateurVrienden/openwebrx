@@ -28,61 +28,14 @@ Enter the install code for the agent you created for this Raspberry Pi in the Cr
 The script should finish the installation and start the DWAgent. Close the Terminal window and close the Chromium browser window.
 
 
-
-/etc/gdm3/custom.conf
-
-
-
-
-
-
-
-Open Terminal on the Pi, or connect to it using SSH
-
-Run the command: sudo raspi-config
-
-Select Advanced Options, then select Wayland
-
-Select X11 and confirm
-
-Reboot the Pi when prompted
-
-
-cd /usr/src
-sudo wget https://www.dwservice.net/download/dwagent_x86.sh
-chmod +x dwagent_x86.sh
-sudo ./dwagent_x86.sh
-
-***Remove dwagent if you've already installed it***
+***Remove dwagent***
 
  sudo /usr/share/dwagent/native/dwagsvc stop
  sudo /usr/share/dwagent/native/dwagsvc delete
  sudo rm -r -f /usr/share/dwagent
  sudo rm -f /etc/dwagent
-***Install Python2***
 
-sudo apt -y install python2
-Install dwagent
-
-
-wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
-sudo tar xzf Python-2.7.9.tgz
-cd Python-2.7.9
-sudo ./configure --enable-optimizations
-sudo make altinstall
-then:
-
-python2.7 -V
-~ Python 2.7.9
-sudo ln -sfn '/usr/local/bin/python2.7' '/usr/bin/python2'
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
-
-
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt-get update
-sudo apt-get install python2.7
-
+***RPITX***
 
 sudo apt-get update
 sudo apt-get install git
@@ -97,18 +50,5 @@ easytest is the easiest way to start and see some demonstration.
 cd rpitx
 ./easytest.sh
 
-
-https://maskaravivek.medium.com/creating-and-shrinking-bootable-for-rasberry-pi-image-from-sd-card-d9355cb29ee8
-Finally, we can shrink the generated img using a dockerized version of PiShrink. First, navigate to the directory containing the img file and then run the following command.
-
-docker run --privileged=true --rm \
-    --volume $(pwd):/workdir \
-    mgomesborges/pishrink \
-    pishrink -pZv GramsRpi.img GramsRpiShrinked.img
-
-	
-				cd Downloads
-				chmod +x dwagent.sh
-				sudo ./dwagent.sh
 		
 
