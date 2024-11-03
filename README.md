@@ -43,7 +43,7 @@ Persoonlijk heb ik deze modellen in mijn shack.
 
 Download de laatste versie via volgende link: [OpenwebRx luarvique](https://github.com/luarvique/openwebrx/releases/)
 
-Kies hier voor het zip bestand (voor V3 32bit! voor V4 kan je zowel de 32 of 64bit versie gebruiken).
+Kies hier voor het zip bestand (voor een V3 enkel 32bit!, voor V4 kan je zowel de 32 of de 64bit versie gebruiken).
 
 Schrijf het bestand naar de **SD kaart** met behulp van het programma **Raspberry Pi Imager**
 
@@ -133,7 +133,7 @@ sudo apt-get upgrade -y
 ```
 sudo rpi-update
 ```
-(**eenmalig** de firmware updaten als je werkt met een oudere V3 RPI) 
+(**eenmalig !!!!!! ** de firmware updaten als je werkt met een oudere V3 RPI) 
 
 De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen. (kan  lang duren, geduld ...  +- 12 min)
 
@@ -143,12 +143,10 @@ sudo install-softmbe.sh
 
 Nu gaan we een adminin account maken om via de web interface de SDR te kunnen instellen en of aanpassen.
 
-`sudo openwebrx admin adduser XXXX` (XXXX vervangen door een gebruikersnaam en kies een paswoord)
-
 ```
-sudo openwebrx admin adduser admin
+sudo openwebrx admin adduser XXXX
 ```
-als demo ook paswoord admin
+(XXXX vervangen door een gebruikersnaam en kies een paswoord, als demo gebruik user adminen kies als paswoord ook admin)
 
 <img src="assets/images/put_3.png" width="500">
 
@@ -243,7 +241,6 @@ Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 
 ---
 
-
 ### installing plugins ###
 [openwebrxplus-plugins](https://github.com/0xAF/openwebrxplus-plugins)
 
@@ -261,19 +258,27 @@ vervang **openwebrx.js** door **plugins/receiver**
 
 Tip: wil je zien wat er in deze map staat gebruik **ls -a**
 
-We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  `sudo cp init.js.sample init.js`
+We kopieren het aanwezige voorbeeld naar een nieuw bestand met de juiste naam.  
+```
+sudo cp init.js.sample init.js
+```
 
-Nu gaan we dit bestand editeren met het commando `sudo nano init.js`
+Nu gaan we dit bestand editeren met het commando 
+```
+sudo nano init.js
+```
 
 Eerst maken we het bestand compleet leeg zet cursor bovenaan (CTRL+K)
 
 ga naar Plugins.json en bovenaan kies je **kopie RAW file**
 
-ga terug naar putty en via een rechts muis klik plak je de configuratie in het leeggemaakte bestand.
+ga terug naar putty en via een rechtse muis klik plak je de configuratie in het leeggemaakte bestand.
 
 CTRL+X ==> save modified buffer Yes
 
+```
 sudo systemctl restart varnish nginx
+```
 
 --- 
 
@@ -364,7 +369,6 @@ Krijg je onderstaande klik op annuleren en sluit het scherm.
 
 <img src="assets/images/error.png" width="300">
 
-
 ---
 
 ***User & Paswoord wijzigen***
@@ -401,7 +405,9 @@ cd /etc/openwebrx/bookmarks.d/
 sudo rm cb.json
 ```
 
-`sudo systemctl restart openwebrx`
+```
+sudo systemctl restart openwebrx
+```
 
 *** Eigen Bookmarks plaatsen ***
 
@@ -455,8 +461,6 @@ sudo apt install cloudflared
 
 ---
 
-
-
 armhf architecture (32-bit Raspberry Pi)
 
 ```
@@ -475,27 +479,11 @@ sudo chmod +x /usr/local/bin/cloudflared
 cloudflared -v
 ```
 
-
 kies ***If you already have cloudflared installed on your machine:*** en kopier dit naar het bureaublad.
 
 VB: ` sudo cloudflared service install eyJhIjoiMDEz....9`
 
-Configuring cloudflared to run on startup
-
-Create a cloudflared user to run the daemon:
-
-sudo useradd -s /usr/sbin/nologin -r -M cloudflared
-Proceed to create a configuration file for cloudflared:
-
-sudo nano /etc/default/cloudflared
-Edit configuration file by copying the following in to /etc/default/cloudflared. This file contains the command-line options that get passed to cloudflared on startup:
-
 ---
-
-```
-sudo poweroff
-```
-
 
 **Interesante links**
 
@@ -508,7 +496,6 @@ sudo poweroff
 [FREQUENTIE DATABASE](https://frequentiedatabase.eu/zoekfreq.php)
 
 [sigidwiki](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
-
 
 ---
 ***CSS tweaks &&& TEST ***
