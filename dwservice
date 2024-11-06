@@ -61,7 +61,7 @@ CMD as Administrator
 wsl --install -d Debian
 
 Open the Debian app from your start menu
-sudo apt update && sudo apt install -y wget parted gzip pigz xz-utils udev e2fsprogs
+sudo apt update && sudo apt install -y wget parted gzip xz-utils udev e2fsprogs
 wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
 chmod +x pishrink.sh
 sudo mv pishrink.sh /usr/local/bin
@@ -78,5 +78,10 @@ Usage: pishrink.sh [-adhnrsvzZ] imagefile.img [newimagefile.img]
   -Z         Compress image after shrinking with xz
   -a         Compress image in parallel using multiple cores
   -d         Write debug messages in a debug log file
+
+
+cd /mnt/c/Documents and Settings/patss/Downloads
+
+sudo ./pishrink.sh openwebrx_full_demoUSR_demo_adminx2.img full_demoUSR_demo_adminx2.img
 		
 
