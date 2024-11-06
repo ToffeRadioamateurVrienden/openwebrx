@@ -57,9 +57,26 @@ hamclock &
 
 ***WSL** (schrink images)
 
-Install WSL command
-Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting "Run as administrator"
-enter the wsl --install command, then restart your machine.
+CMD as Administrator
+wsl --install -d Debian
 
+Open the Debian app from your start menu
+sudo apt update && sudo apt install -y wget parted gzip pigz xz-utils udev e2fsprogs
+wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
+chmod +x pishrink.sh
+sudo mv pishrink.sh /usr/local/bin
+
+Your C:\ drive is mounted at /mnt/c/
+
+Usage: pishrink.sh [-adhnrsvzZ] imagefile.img [newimagefile.img]
+
+  -s         Don't expand filesystem when image is booted the first time
+  -v         Be verbose
+  -n         Disable automatic update checking
+  -r         Use advanced filesystem repair option if the normal one fails
+  -z         Compress image after shrinking with gzip
+  -Z         Compress image after shrinking with xz
+  -a         Compress image in parallel using multiple cores
+  -d         Write debug messages in a debug log file
 		
 
