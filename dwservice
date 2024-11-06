@@ -1,25 +1,43 @@
+***DWSservice***
 
+after burning Image 32bit.
 
 Open a terminal and run these commands:
 
+sudo raspi-config
+
+Go to Advanced and disable Wayland.
+
+sudo reboot
+
 cd /usr/src
+
 sudo wget -N https://www.dwservice.net/download/dwagent.sh
+
 sudo chmod +x dwagent.sh
+
 sudo ./dwagent.sh
 
 ***Remove dwagent***
 
  sudo /usr/share/dwagent/native/dwagsvc stop
+
  sudo /usr/share/dwagent/native/dwagsvc delete
+
  sudo rm -r -f /usr/share/dwagent
+
  sudo rm -f /etc/dwagent
 
 ***RPITX***
 
 sudo apt-get update
+
 sudo apt-get install git
+
 git clone https://github.com/F5OEO/rpitx
+
 cd rpitx
+
 ./install.sh
 
 Plug a wire on GPIO 4, means Pin 7
@@ -27,6 +45,7 @@ Plug a wire on GPIO 4, means Pin 7
 easytest is the easiest way to start and see some demonstration. 
 
 cd rpitx
+
 ./easytest.sh
 
 		
