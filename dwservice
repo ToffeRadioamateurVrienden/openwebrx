@@ -54,5 +54,12 @@ chmod u+x install-hc-rpi
 ./install-hc-rpi
 If you chose not to install a desktop icon, you can run HamClock from the terminal at any time by typing this command:
 hamclock &
+
+***WSL** (schrink images)
+
+Install WSL command
+Open PowerShell or Windows Command Prompt in administrator mode by right-clicking and selecting "Run as administrator"
+enter the wsl --install command, then restart your machine.
+
 		
 
