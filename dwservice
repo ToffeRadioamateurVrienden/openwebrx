@@ -48,5 +48,11 @@ cd rpitx
 
 ./easytest.sh
 
+***Hamclock***
+curl -O https://www.clearskyinstitute.com/ham/HamClock/install-hc-rpi
+chmod u+x install-hc-rpi
+./install-hc-rpi
+If you chose not to install a desktop icon, you can run HamClock from the terminal at any time by typing this command:
+hamclock &
 		
 
