@@ -80,8 +80,8 @@ Usage: pishrink.sh [-adhnrsvzZ] imagefile.img [newimagefile.img]
   -d         Write debug messages in a debug log file
 
 
-cd /mnt/c/Documents and Settings/patss/Downloads
+cd /mnt/c/'Documents and Settings'/patss/Downloads
 
-sudo ./pishrink.sh openwebrx_full_demoUSR_demo_adminx2.img full_demoUSR_demo_adminx2.img
+sudo /usr/local/bin/pishrink.sh startl_demoUSR_demo.img startl_demoUSR_demo_reduced.img
 		
 
