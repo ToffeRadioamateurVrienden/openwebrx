@@ -141,6 +141,8 @@ De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand comman
 sudo install-softmbe.sh
 ```
 
+<<< *** _start_demoUSR_demo.img ***>>>>
+
 Nu gaan we een adminin account maken om via de web interface de SDR te kunnen instellen en of aanpassen.
 
 ```
