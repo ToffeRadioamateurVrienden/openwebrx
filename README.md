@@ -498,17 +498,7 @@ VB: ` sudo cloudflared service install eyJhIjoiMDEz....9`
 [sigidwiki](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
 
 ---
-***CSS tweaks &&& TEST ***
 
-sudo find / -name openwebrx.css
-sudo find / -name openwebrx.js  cd /usr/lib/python3/dist-packages/htdocs/
-sudo nano /usr/lib/python3/dist-packages/htdocs/openwebrx.js   openwebrx_init()
-
- $('#openwebrx-panel-receiver').css( 'Width', '30vw');
-
-sudo nano /usr/lib/python3/dist-packages/htdocs/css/openwebrx.css
-in de nano editor doe CTRL + W en zoek naar  "openwebrx-panel-receiver" en verander de width naar 30vw
-width: 30vw;
 
 
 
