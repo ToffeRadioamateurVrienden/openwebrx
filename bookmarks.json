@@ -1,8 +1,13 @@
 [
   {
-    "name": "TRV",
-    "frequency": 144900000,
-    "modulation": "nfm"
+      "name": "TRV",
+      "frequency": 144900000,
+      "modulation": "nfm"
+  },
+  {
+      "name": "3AM",
+      "frequency": 145537500,
+      "modulation": "nfm"
   },
   {
         "name" : "1",
