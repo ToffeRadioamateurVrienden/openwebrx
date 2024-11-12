@@ -60,7 +60,7 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 - *Hostnaam* ==> vrije keuze voorbeeld: demoSDR
 - *Gebruikersnaam* ==> vrije keuze voorbeeld: demoUSR
 - *Wachtwoord* ==> vrije keuze demo (opgelet deze is alleen voor het OS)
-- *Wiffi instellen* ==> kan je eventueel overslaan maar kan wel handig zijn om straks te configuren.
+- *Wiffi instellen* ==> niet nodig voor deze workshop.
 - Regio instellingen *Tijdzone:* **Europa/Brussels** en *Toetsenbord indeling:* **be**
 
 Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
