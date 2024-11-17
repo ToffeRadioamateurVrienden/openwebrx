@@ -491,8 +491,6 @@ VB: ` sudo cloudflared service install eyJhIjoiMDEz....9`
 
 [rtl-sdr](https://www.rtl-sdr.com/)
 
-[Uitleg over de werking en configuratie](https://fms.komkon.org/OWRX/#FAQ-CONFIG)
-
 [FREQUENTIE DATABASE](https://frequentiedatabase.eu/zoekfreq.php)
 
 [sigidwiki](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
