@@ -241,6 +241,62 @@ Maak de verschillende frequentie banden aan die je wenst te gebruiken.
 
 ---
 
+***Bookmarks aanpassen of toevoegen***
+
+OpenWebRX+ wordt geleverd met vooraf gedefinieerde bladwijzers voor enkele veelvoorkomende frequenties, zoals weersinformatie, CB-kanalen, enzovoort. Als u deze bladwijzers niet wilt zien, verwijdert u ze en start u OpenWebRX opnieuw op
+
+```
+sudo rm -f /etc/openwebrx/bookmarks.d/*
+```
+
+```
+sudo systemctl restart openwebrx
+```
+
+Ik verwijder alleen de CB omdat deze op AM staat.
+
+```
+cd /etc/openwebrx/bookmarks.d/
+```
+
+```
+sudo rm cb.json
+```
+
+```
+sudo systemctl restart openwebrx
+```
+
+*** Eigen Bookmarks plaatsen ***
+
+```
+cd /etc/openwebrx/bookmarks.d/
+```
+
+```
+sudo nano /var/lib/openwebrx/bookmarks.json
+```
+(deze file bevat de lokale bladwijzers die je zelf toegevoegd)
+
+ga naar bookmarks.json en bovenaan kies je **kopie RAW file**
+
+ga terug naar putty en via een rechts muis klik plak je de configuratie in het leeggemaakte bestand.
+
+CTRL+X ==> save modified buffer Yes
+
+
+Herstart openWebRX via:
+
+```
+sudo systemctl stop openwebrx.service
+```
+
+```
+sudo systemctl start openwebrx.service
+```
+
+---
+
 ### installing plugins ###
 [openwebrxplus-plugins](https://github.com/0xAF/openwebrxplus-plugins)
 
@@ -379,62 +435,6 @@ sudo adduser newuser_name
 
 ```
 sudo usermod newuser_name -a -G openwebrx,adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio
-```
-
----
-
-***Bookmarks aanpassen of toevoegen***
-
-OpenWebRX+ wordt geleverd met vooraf gedefinieerde bladwijzers voor enkele veelvoorkomende frequenties, zoals weersinformatie, CB-kanalen, enzovoort. Als u deze bladwijzers niet wilt zien, verwijdert u ze en start u OpenWebRX opnieuw op
-
-```
-sudo rm -f /etc/openwebrx/bookmarks.d/*
-```
-
-```
-sudo systemctl restart openwebrx
-```
-
-Ik verwijder alleen de CB omdat deze op AM staat.
-
-```
-cd /etc/openwebrx/bookmarks.d/
-```
-
-```
-sudo rm cb.json
-```
-
-```
-sudo systemctl restart openwebrx
-```
-
-*** Eigen Bookmarks plaatsen ***
-
-```
-cd /etc/openwebrx/bookmarks.d/
-```
-
-```
-sudo nano /var/lib/openwebrx/bookmarks.json
-```
-(deze file bevat de lokale bladwijzers die je zelf toegevoegd)
-
-ga naar bookmarks.json en bovenaan kies je **kopie RAW file**
-
-ga terug naar putty en via een rechts muis klik plak je de configuratie in het leeggemaakte bestand.
-
-CTRL+X ==> save modified buffer Yes
-
-
-Herstart openWebRX via:
-
-```
-sudo systemctl stop openwebrx.service
-```
-
-```
-sudo systemctl start openwebrx.service
 ```
 
 ---
