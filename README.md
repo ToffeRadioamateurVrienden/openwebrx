@@ -133,7 +133,7 @@ sudo apt-get upgrade -y
 ```
 sudo rpi-update
 ```
-(**eenmalig !!!!!! ** de firmware updaten als je werkt met een oudere V3 RPI) 
+(**eenmalig !!!!!! op eigen risico!!!!!! ** de firmware updaten als je werkt met een oudere V3 RPI) 
 
 De image is zonder de digitale decoders (DMR, NXDN, etc.) via onderstaand commando gaan we deze toevoegen. (kan  lang duren, geduld ...  +- 12 min)
 
