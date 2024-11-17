@@ -174,8 +174,6 @@ Deze zijn ook interesante commando's betreft gebruiker administratie.
 
 `sudo openwebrx admin hasuser`                       Test if a user exists
 
->>> Een image met alle bovenstaande stappen reeds uitgevoerd is te vinden in je map als **websdr_demoUSR_demo_admin_admin.img** 
-
 ---
 ### Configureren van de WebSdr ###
 ---
