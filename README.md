@@ -63,6 +63,10 @@ Kies hier voor **AANPASSEN** om onderstaand dialoog te openen.
 - *Wiffi instellen* ==> niet nodig voor deze workshop.
 - Regio instellingen *Tijdzone:* **Europa/Brussels** en *Toetsenbord indeling:* **be**
 
+Om verbinding van op afstand te kunnen maken moet SSH geactiveerd zijn.
+
+![image](assets/images/ssh.png)
+
 Kies **Opslaan** om deze gegevens te bewaren en toe te passen.
 
 <img src="assets/images/rpi_im3.png" width="500">
@@ -80,12 +84,6 @@ De installatie wordt geverifieerd
 <img src="assets/images/rpi_im6.png" width="500">
 Verwijder de SDkaart uit je PC en klik op VERDER GAAN
 
-Om verbinding van op afstand te kunnen maken moet SSH nog worden geactiveerd.
-
-Steek de SDkaart terug in je PC en maak een nieuw leeg tekstbestand aan in de root map met als naam **ssh** (zonder extentie!)
-
-![image](assets/images/ssh.png)
-
 **De eerste opstart van OpenWebRx**
 
 - Steek de SD kaart in de Raspberry PI.
@@ -94,7 +92,6 @@ Steek de SDkaart terug in je PC en maak een nieuw leeg tekstbestand aan in de ro
 - Sluit de voeding aan en wacht tot deze is opgestart.
 
 Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http://demosdr.local:8073/**
-
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
