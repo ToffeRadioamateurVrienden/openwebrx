@@ -91,9 +91,10 @@ Verwijder de SDkaart uit je PC en klik op VERDER GAAN
 - sluit de SDR dongle aan op 1 van de USB poorten.
 - Sluit de voeding aan en wacht tot deze is opgestart.
 
-Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk. **http://demosdr.local:8073/**
+Als alles goed is verlopen kan je nu de OpenWebRx openen in je netwerk verander XXXXX door je gekozen hostnaam. **http://XXXXX.local:8073/**
 
 ## Inloggen op de Raspberry Pi vanop afstand ##
+
 Via een computer in het zelfde netwerk als deze van de Raspeberry Pi kan je inloggen via **SSH** met het programma **PuTTY**.
 
 Hiervoor heb je volgende gegevens voor nodig.
@@ -408,6 +409,12 @@ Selecteer het juiste doelapparaat. Klik op Lezen en wacht tot het inlezen voltoo
 <img src="assets/images/winD32.png" width="500">
 
 Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats in een tekstbestand.
+
+Opgelet: waneer je de volgende keer de SDkaart wil maken zal deze niet meer passen je moet dus een iets groter exemplaar gebruiken.
+
+De makelijkste mannier, gebruik een kleine SDkaart 8GB configureer en pas alles aan naar eigen wens maak hiervan een bacup en gebruik voor je SDR een grotere SDkaart. BV: 16GB.
+
+Alternatief is de image te shrinken met [PiShrink](https://github.com/Drewsif/PiShrink) maar dat vraagt wat computerkennis.
 
 ---
 
